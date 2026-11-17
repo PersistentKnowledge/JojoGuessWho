@@ -2,27 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <style>
+        .site-header {
+            text-align: center;
+            padding: 24px 16px 12px;
+        }
+        .site-header h1 {
+            font-family: 'Anton', sans-serif;
+            font-size: clamp(2.2rem, 6vw, 4rem);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0;
+
+            background: linear-gradient(180deg, #ffe27a, #d4a72c 60%, #8a5a00);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+
+            filter: drop-shadow(3px 3px 0 #000) drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
+        }
+
+        .site-header .tagline {
+            margin: 4px 0 0;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
          body {
              background-image: url('images/background.png');
              color: antiquewhite;
          }
-         .button {
+         button {
              border: #c9a227 solid 1px;
              color: antiquewhite;
              background: darkslateblue;
              padding: 5px;
+         }
+         button:disabled {
+             opacity: 0.5;
+             cursor: not-allowed;
          }
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             gap: 8px;
             padding: 8px 0;
+            user-select: none;
+
         }
 
-         .part[data-part="1"] {--part-color: #131368;}
-         .part[data-part="2"] {--part-color: #5c1010;}
+         .part[data-part="1"] {--part-color: #1953bd;}
+         .part[data-part="2"] {--part-color: #a11e1e;}
          .part[data-part="3"] {--part-color: #8c692f;}
          .part[data-part="4"] {--part-color: #a30062;}
          .part[data-part="5"] {--part-color: #a6af17;}
@@ -36,7 +68,7 @@
             border-radius: 6px;
             margin-bottom: 12px;
             background: rgba(0, 0, 0, 0.35);
-            overflow: hidden;
+            overflow: clip;
         }
 
         .part summary {
@@ -46,6 +78,9 @@
             border-radius: 0;
             padding: 12px 16px;
             font-size: 1.2rem;
+            background: #1a1a1a;
+            border-left: 8px solid var(--part-color, #c9a227);
+            color: #fff;
         }
         .part summary button:first-of-type {
             margin-left: auto;
@@ -58,6 +93,9 @@
 
         .part[open] summary {
             border-bottom: 2px solid #3a3a3a;
+            position: sticky;
+            top: 0;
+            z-index: 2;
         }
         .part .grid {
             padding: 8px;
@@ -65,6 +103,7 @@
         }
         .part summary span {
             flex: 1;
+            color: var(--part-color, #c9a227);
         }
         .card {
             border: 3px solid #c9a227;
@@ -72,6 +111,8 @@
             padding: 4px;
             background: #222;
             cursor: pointer;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .portrait {
@@ -97,6 +138,7 @@
             aspect-ratio: 3 / 4;
             object-fit: cover;
             object-position: center top;
+            -webkit-user-drag: none;
         }
         .card .label {
             text-align: center;
@@ -104,20 +146,50 @@
             color: antiquewhite;
         }
 
+        .card.chosen {
+            outline: 4px solid #ff3c3c;
+            outline-offset: 2px;
+            box-shadow: 0 0 16px 4px #871c1c;
+            animation: chosen-pulse 1.2s ease-in-out infinite;
+        }
+        @keyframes chosen-pulse {
+            50% {box-shadow: 0 0 28px 8px #871c1c;}
+        }
+
+        .site-footer {
+            margin-top: 32px;
+            padding: 16px;
+            text-align: center;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            opacity: 0.75;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .site-footer a {
+            color: inherit;
+        }
     </style>
 
     <title>Custom Guess Who [WIP]</title>
 </head>
 <body>
-    <h1>Guess Who [WIP]</h1>
+    <header class="site-header">
+        <h1>Jojo's Guessing Game</h1>
+        <p class="tagline">A fan-made guessing game for JJBA</p>
+    </header>
     <button id="reset">Uncheck All</button>
+    <button id="random">Choose Random Character</button>
 <div id="board"></div>
 <script type="module">
+    // Grab Character Data
     const response = await fetch('jjba_characters.json');
     const characters = await response.json();
     const board = document.getElementById('board');
     const eliminated = new Set();
 
+
+    // Prepare Eliminated Option
     function setOut(card, out) {
         card.classList.toggle('out', out);
 
@@ -129,6 +201,7 @@
         }
     }
 
+    // Prepare cards for grid
     function makeCard(character) {
         const card = document.createElement('div');
         card.className = 'card';
@@ -138,6 +211,7 @@
         img.src = character.image;
         img.alt = character.name;
         img.loading = 'lazy';
+        img.draggable = false;
 
         const portrait = document.createElement('div');
         portrait.className = 'portrait';
@@ -166,51 +240,94 @@
         const section = document.createElement('details');
         section.className = 'part';
         section.dataset.part = part;
-        section.open = true;
+        section.open = false;
 
+        // Part Separator
         const summary = document.createElement('summary');
         const title = document.createElement('span');
         title.textContent = `Part ${part}`;
 
+        // Mass eliminate all characters from part
         const markAllBtn = document.createElement('button');
         markAllBtn.className = 'button';
         markAllBtn.textContent = 'X All';
-
+        // Clear mass elimination
         const clearBtn = document.createElement('button');
         clearBtn.className = 'button';
         clearBtn.textContent = 'Clear';
-
+        // Create the Part Bar
         summary.append(title, markAllBtn, clearBtn);
-
+        // Populate each part with their respective characters
         const grid = document.createElement('div');
         grid.className = 'grid';
         for (const character of byPart[part]) {
             grid.append(makeCard(character));
         }
-
+        // Click listener for X All per Part
         markAllBtn.addEventListener('click', (event) => {
             event.preventDefault();
             for(const card of grid.querySelectorAll('.card')) {
                 setOut(card, true);
             }
         });
-
+        // Click listener for Clear per Part
         clearBtn.addEventListener('click', (event) => {
             event.preventDefault();
             for(const card of grid.querySelectorAll('.card')) {
                 setOut(card, false);
             }
-        });
-
+        })
         section.append(summary, grid);
         board.append(section);
     }
-
+    // Reset All Marked Cards
     document.getElementById('reset').addEventListener('click', () => {
         for(const card of document.querySelectorAll('.card')) {
             setOut(card, false);
         }
+
+        chosenCard?.classList.remove('chosen');
+        chosenCard = null;
+
+        document.getElementById('random').disabled = false;
     });
+
+    let chosenCard = null;
+
+    document.getElementById('random').addEventListener('click', () => {
+        const cards = [...document.querySelectorAll('.card')];
+
+        const index = Math.floor(Math.random() * cards.length);
+        const card = cards[index];
+
+        chosenCard?.classList.remove('chosen');
+
+        card.classList.add('chosen');
+        chosenCard = card;
+
+        card.closest('details').open = true;
+        card.scrollIntoView({behavior: 'smooth', block: 'center'});
+        document.getElementById('random').disabled = true;
+    });
+
+
 </script>
+
+<footer class="site-footer">
+    <p>
+        This is an unofficial, non-commercial fan project. It is not affiliated with,
+        endorsed by, or sponsored by Hirohiko Araki, Shueisha, or David Production.
+    </p>
+    <p>
+        <em>JoJo's Bizarre Adventure</em> and all related characters and artwork are the
+        property of their respective owners.
+    </p>
+    <p>
+        Character images sourced from
+        <a href="https://jojowiki.com" target="_blank" rel="noopener">JoJo's Bizarre Encyclopedia</a>.
+        If you are a rights holder and would like any content removed, please contact
+        <a href="mailto:ZMTaylorSWE@proton.me">ZMTaylorSWE@proton.me</a>.
+    </p>
+</footer>
 </body>
 </html>
