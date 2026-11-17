@@ -8,27 +8,60 @@
              background-image: url('images/background.png');
              color: antiquewhite;
          }
+         .button {
+             border: #c9a227 solid 1px;
+             color: antiquewhite;
+             background: darkslateblue;
+             padding: 5px;
+         }
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             gap: 8px;
             padding: 8px 0;
         }
+
+         .part[data-part="1"] {--part-color: #131368;}
+         .part[data-part="2"] {--part-color: #5c1010;}
+         .part[data-part="3"] {--part-color: #8c692f;}
+         .part[data-part="4"] {--part-color: #a30062;}
+         .part[data-part="5"] {--part-color: #a6af17;}
+         .part[data-part="6"] {--part-color: #00b825;}
+         .part[data-part="7"] {--part-color: #91288a;}
+         .part[data-part="8"] {--part-color: #068888;}
+
         .part {
             border: 2px solid #000000;
+            border-color: var(--part-color, black);
             border-radius: 6px;
             margin-bottom: 12px;
             background: rgba(0, 0, 0, 0.35);
             overflow: hidden;
         }
+
         .part summary {
+            display: flex;
+            align-items: center;
+            gap: 8px;
             border-radius: 0;
+            padding: 12px 16px;
+            font-size: 1.2rem;
         }
+        .part summary button:first-of-type {
+            margin-left: auto;
+        }
+
+        .part summary button{
+            padding: 4px 12px;
+            cursor: pointer;
+        }
+
         .part[open] summary {
             border-bottom: 2px solid #3a3a3a;
         }
         .part .grid {
             padding: 8px;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
         }
         .part summary span {
             flex: 1;
@@ -63,8 +96,9 @@
             max-width: 100%;
             aspect-ratio: 3 / 4;
             object-fit: cover;
+            object-position: center top;
         }
-        .name {
+        .card .label {
             text-align: center;
             font-size: 0.85rem;
             color: antiquewhite;
@@ -131,6 +165,7 @@
     for(const part of parts) {
         const section = document.createElement('details');
         section.className = 'part';
+        section.dataset.part = part;
         section.open = true;
 
         const summary = document.createElement('summary');
@@ -138,9 +173,11 @@
         title.textContent = `Part ${part}`;
 
         const markAllBtn = document.createElement('button');
+        markAllBtn.className = 'button';
         markAllBtn.textContent = 'X All';
 
         const clearBtn = document.createElement('button');
+        clearBtn.className = 'button';
         clearBtn.textContent = 'Clear';
 
         summary.append(title, markAllBtn, clearBtn);

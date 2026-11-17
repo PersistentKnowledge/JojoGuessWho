@@ -89,7 +89,7 @@ Strength
 Devo the Cursed
 Ebony Devil
 Rubber Soul
-Yellow Temperance
+Yellow Temperance | File:Yellow_Temperance_Infobox_Anime.png
 Hol Horse
 Emperor
 J. Geil
@@ -309,7 +309,7 @@ Hot Pants
 Cream Starter
 Mountain Tim
 Oh! Lonesome Me
-Funny Valentine
+Funny Valentine | File:Valentine_Normal_Infobox_Manga.png
 Dirty Deeds Done Dirt Cheap
 D4C Love Train
 Sandman
@@ -365,7 +365,7 @@ Valkyrie
 Silver Bullet
 Ghost Rider in the Sky
 Hey! Ya!
-Gets Up
+Gets Up | File:Horse04_GetsUp.png
 Fritz von Stroheim
 
 # PART 8
@@ -386,7 +386,7 @@ California King Bed
 Hato Higashikata
 Walking Heart
 Toru
-Wonder of U
+Wonder of U | File:Wonder_of_U_Hybrid_Infobox_Manga.png
 Satoru Akefu
 Jobin Higashikata
 Speed King
@@ -429,7 +429,7 @@ Iwasuke
 Taoka
 Do Do Do, De Da Da Da
 Ob-La-Di, Ob-La-Da
-Yoshikage Kira
+Yoshikage Kira | File:Yoshikage_Kira_JJL_Infobox_Manga.PNG
 Killer Queen | File:Killer_Queen_JJL_Infobox_Manga.png
 Josefumi Kujo
 Johnny Joestar | File:Johnny_Joestar_JJL_Infobox_Manga.png
