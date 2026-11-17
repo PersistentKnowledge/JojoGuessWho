@@ -30,7 +30,22 @@
             font-style: italic;
             opacity: 0.8;
         }
-        /* Holds global buttons and part-disabling checkboxes */
+
+        .top-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 16px;
+            max-width: 1100px;
+            margin: 0 auto 16px;
+        }
+        .top-row .toolbar {
+            margin: 0;
+            flex: 1;
+        }
+
+        /* Hold global game objects (parts toggle, opponent tabs button, etc.) */
         .toolbar {
             max-width: 900px;
             margin: 0 auto 16px;
@@ -55,22 +70,102 @@
             font-size: 1rem;
             cursor: pointer;
         }
+
+        /* Setup */
+        #setup[hidden],
+        #change-names[hidden] {
+            display: none;
+        }
+
+        /* Chosen Card */
+        #my-pick {
+            width: 150px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 4px;
+            background: #222;
+            border-radius: 6px;
+            box-shadow: 0 0 12px 2px #ddd898;
+            cursor: pointer;
+        }
+        #my-pick[hidden] {
+            display: none;
+        }
+        .my-pick-portrait img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 3/ 4;
+            object-fit: cover;
+            object-position: center top;
+        }
+        .my-pick-heading {
+            text-align: center;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+        .my-pick-name {
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* Button design */
+        button {
+            border: #c9a227 solid 1px;
+            color: antiquewhite;
+            background: darkslateblue;
+            padding: 5px;
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        /* Part selector */
+        #part-filter {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 8px 0;
+        }
+        #part-filter label {
+            cursor: pointer;
+            user-select: none;
+            border-left: 4px solid var(--part-color, #c9a227);
+            padding-left: 6px;
+            color: #fff;
+        }
+
+        /* opponent tabs */
+        #opponent-tabs {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .opponent-tab {
+            padding: 6px 14px;
+            background: #1a1a1a;
+            color: #fff;
+            border: 2px solid #555;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .opponent-tab.active {
+            border-color: #ff3cac;
+            background: #3a1530
+        }
+
         /* Background */
          body {
              background-image: url('images/background.png');
              color: antiquewhite;
          }
-        /* Button design */
-         button {
-             border: #c9a227 solid 1px;
-             color: antiquewhite;
-             background: darkslateblue;
-             padding: 5px;
-         }
-         button:disabled {
-             opacity: 0.5;
-             cursor: not-allowed;
-         }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -101,19 +196,7 @@
         .part[hidden] {
             display: none;
         }
-        #part-filter {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin: 8px 0;
-        }
-        #part-filter label {
-            cursor: pointer;
-            user-select: none;
-            border-left: 4px solid var(--part-color, #c9a227);
-            padding-left: 6px;
-            color: #fff;
-        }
+
 
         .part summary {
             display: flex;
@@ -178,7 +261,7 @@
         }
         .portrait img {
             display: block;
-            max-width: 100%;
+            width: 100%;
             aspect-ratio: 3 / 4;
             object-fit: cover;
             object-position: center top;
@@ -215,20 +298,42 @@
         }
     </style>
 
-    <title>Custom Guess Who [WIP]</title>
+    <title>JJBAGuessGame</title>
 </head>
 <body>
     <header class="site-header">
         <h1>Jojo's Guessing Game</h1>
         <p class="tagline">A fan-made guessing game for JJBA</p>
     </header>
-    <div class="toolbar">
-        <div class="toolbar-actions">
-            <button id="reset">Uncheck All</button>
-            <button id="random">Choose Random Character</button>
+    <div class="top-row">
+
+        <div class="toolbar">
+            <form id="setup">
+                <input name="opp" placeholder="Opponent 1" maxlength="20">
+                <input name="opp" placeholder="Opponent 2" maxlength="20">
+                <input name="opp" placeholder="Opponent 3" maxlength="20">
+                <button type="submit">Set Opponents</button>
+            </form>
+            <div class="toolbar-actions">
+                <button id="reset">Reset All Boards</button>
+                <button id="random">Choose Random Character</button>
+                </div>
+
+            <div id="opponent-tabs"></div>
+            <div id="part-filter"></div>
+            <button id="change-names" hidden>Change Names</button>
+
+            </div>
+        <div id='my-pick' hidden title="Click to jump this card">
+                <div class="my-pick-heading">Your Character</div>
+                <div class="my-pick-portrait">
+                    <img alt="">
+                </div>
+                <div class="my-pick-name"></div>
+            </div>
         </div>
-        <div id="part-filter"></div>
     </div>
+
 
 
 <div id="board"></div>
@@ -237,22 +342,29 @@
     const response = await fetch('jjba_characters.json');
     const characters = await response.json();
     const board = document.getElementById('board');
-    const eliminated = new Set();
 
 
     // Prepare Eliminated Option
     function setOut(card, out) {
         card.classList.toggle('out', out);
 
+        const set = eliminatedByOpponent[activeOpponent];
         if(out) {
-            eliminated.add(card.dataset.id);
+            set.add(card.dataset.id);
         }
         else {
-            eliminated.delete(card.dataset.id);
+            set.delete(card.dataset.id);
+        }
+    }
+    // Handles swapping between boards, all cards will be set to the state stored by the opponent's board
+    function refreshBoard() {
+        const set = eliminatedByOpponent[activeOpponent];
+        for(const card of document.querySelectorAll('.card')) {
+            card.classList.toggle('out', set.has(card.dataset.id));
         }
     }
 
-    // Prepare cards for grid
+    // Make the board
     function makeCard(character) {
         const card = document.createElement('div');
         card.className = 'card';
@@ -344,16 +456,94 @@
             section.hidden = !checkbox.checked;
         })
     }
+
+
+    // Prepare multiple board states depending on number of players.
+    let eliminatedByOpponent = {};
+    let activeOpponent = null;
+
+    const tabRow = document.getElementById('opponent-tabs');
+
+    function setupOpponents(names) {
+        eliminatedByOpponent = {};
+        for(const name of names) {
+            eliminatedByOpponent[name] = new Set();
+        }
+
+        activeOpponent = names[0];
+
+        tabRow.replaceChildren();
+
+        for(const name of names) {
+            const tab = document.createElement('button');
+            tab.className = 'opponent-tab';
+            tab.textContent = name;
+            if(name === activeOpponent) {
+                tab.classList.add('active');
+            }
+            tab.addEventListener('click', () => {
+                activeOpponent = name;
+                for(const t of tabRow.querySelectorAll('.opponent-tab')) {
+                    t.classList.toggle('active', t === tab);
+                }
+                refreshBoard();
+            });
+               tabRow.append(tab);
+        }
+        refreshBoard();
+    }
+
+   // Opponent Setup
+    document.getElementById('setup').addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const names = [...event.target.querySelectorAll('input[name="opp"]')].map(input => input.value.trim()).filter(name => name !== '');
+        if(names.length === 0) {
+            alert('Enter at least one opponent name.');
+            return;
+        }
+        if(new Set(names).size !== names.length) {
+            alert('Cannot enter the same name twice');
+            return;
+        }
+
+        const hasMarks = Object.values(eliminatedByOpponent).some(set => set.size > 0);
+        if(hasMarks) {
+            const ok = confirm('Changing opponents will wipe ALL boards. Continue?');
+            if(!ok) {
+                return;
+            }
+        }
+
+        setupOpponents(names);
+
+        event.target.hidden = true;
+        document.getElementById('change-names').hidden = false;
+    });
+
+    setupOpponents(['Opponent 1']);
+
+    // Reveal Change Names
+    document.getElementById('change-names').addEventListener('click', () => {
+        document.getElementById('setup').hidden = false;
+        document.getElementById('change-names').hidden = true;
+
+        document.querySelector('#setup input').focus();
+    });
+
     // Reset All Marked Cards
     document.getElementById('reset').addEventListener('click', () => {
-        for(const card of document.querySelectorAll('.card')) {
-            setOut(card, false);
+        for(const set of Object.values(eliminatedByOpponent)) {
+            set.clear();
         }
+
+        refreshBoard();
 
         chosenCard?.classList.remove('chosen');
         chosenCard = null;
 
         document.getElementById('random').disabled = false;
+        document.getElementById('my-pick').hidden = true;
     });
 
     let chosenCard = null;
@@ -369,11 +559,20 @@
         card.classList.add('chosen');
         chosenCard = card;
 
-        card.closest('details').open = true;
-        card.scrollIntoView({behavior: 'smooth', block: 'center'});
         document.getElementById('random').disabled = true;
+
+        const myPick = document.getElementById('my-pick');
+        myPick.querySelector('img').src = card.querySelector('img').src;
+        myPick.querySelector('.my-pick-name').textContent = card.querySelector('.label').textContent;
+        myPick.hidden = false;
     });
 
+    document.getElementById('my-pick').addEventListener('click', () => {
+        if (!chosenCard) return;
+
+        chosenCard.closest('details').open = true;
+        chosenCard.scrollIntoView({behavior: 'smooth', block: 'center'});
+    });
 
 </script>
 
