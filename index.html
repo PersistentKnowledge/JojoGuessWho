@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <style>
+        /* Title */
         .site-header {
             text-align: center;
             padding: 24px 16px 12px;
@@ -29,11 +30,37 @@
             font-style: italic;
             opacity: 0.8;
         }
+        /* Holds global buttons and part-disabling checkboxes */
+        .toolbar {
+            max-width: 900px;
+            margin: 0 auto 16px;
+            padding: 12px 16px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .toolbar-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+        .toolbar button {
+            padding: 8px 16px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        /* Background */
          body {
              background-image: url('images/background.png');
              color: antiquewhite;
          }
+        /* Button design */
          button {
              border: #c9a227 solid 1px;
              color: antiquewhite;
@@ -52,15 +79,15 @@
             user-select: none;
 
         }
-
-         .part[data-part="1"] {--part-color: #1953bd;}
-         .part[data-part="2"] {--part-color: #a11e1e;}
-         .part[data-part="3"] {--part-color: #8c692f;}
-         .part[data-part="4"] {--part-color: #a30062;}
-         .part[data-part="5"] {--part-color: #a6af17;}
-         .part[data-part="6"] {--part-color: #00b825;}
-         .part[data-part="7"] {--part-color: #91288a;}
-         .part[data-part="8"] {--part-color: #068888;}
+        /* Part Design */
+         [data-part="1"] {--part-color: #1953bd;}
+         [data-part="2"] {--part-color: #a11e1e;}
+         [data-part="3"] {--part-color: #8c692f;}
+         [data-part="4"] {--part-color: #a30062;}
+         [data-part="5"] {--part-color: #a6af17;}
+         [data-part="6"] {--part-color: #00b825;}
+         [data-part="7"] {--part-color: #91288a;}
+         [data-part="8"] {--part-color: #068888;}
 
         .part {
             border: 2px solid #000000;
@@ -69,6 +96,23 @@
             margin-bottom: 12px;
             background: rgba(0, 0, 0, 0.35);
             overflow: clip;
+        }
+
+        .part[hidden] {
+            display: none;
+        }
+        #part-filter {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 8px 0;
+        }
+        #part-filter label {
+            cursor: pointer;
+            user-select: none;
+            border-left: 4px solid var(--part-color, #c9a227);
+            padding-left: 6px;
+            color: #fff;
         }
 
         .part summary {
@@ -147,13 +191,13 @@
         }
 
         .card.chosen {
-            outline: 4px solid #ff3c3c;
+            outline: 4px solid #fff5a5;
             outline-offset: 2px;
-            box-shadow: 0 0 16px 4px #871c1c;
-            animation: chosen-pulse 1.2s ease-in-out infinite;
+            box-shadow: 0 0 16px 4px #ddd898;
+            animation: chosen-pulse 1.2s ease-in-out infinite alternate;
         }
         @keyframes chosen-pulse {
-            50% {box-shadow: 0 0 28px 8px #871c1c;}
+            50% {box-shadow: 0 0 20px 7px #ffd700;}
         }
 
         .site-footer {
@@ -178,8 +222,15 @@
         <h1>Jojo's Guessing Game</h1>
         <p class="tagline">A fan-made guessing game for JJBA</p>
     </header>
-    <button id="reset">Uncheck All</button>
-    <button id="random">Choose Random Character</button>
+    <div class="toolbar">
+        <div class="toolbar-actions">
+            <button id="reset">Uncheck All</button>
+            <button id="random">Choose Random Character</button>
+        </div>
+        <div id="part-filter"></div>
+    </div>
+
+
 <div id="board"></div>
 <script type="module">
     // Grab Character Data
@@ -279,6 +330,19 @@
         })
         section.append(summary, grid);
         board.append(section);
+
+        const filterLabel = document.createElement('label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = true;
+
+        filterLabel.append(checkbox, `Part ${part}`);
+        filterLabel.dataset.part = part;
+        document.getElementById('part-filter').append(filterLabel);
+
+        checkbox.addEventListener('change', () => {
+            section.hidden = !checkbox.checked;
+        })
     }
     // Reset All Marked Cards
     document.getElementById('reset').addEventListener('click', () => {
@@ -295,7 +359,7 @@
     let chosenCard = null;
 
     document.getElementById('random').addEventListener('click', () => {
-        const cards = [...document.querySelectorAll('.card')];
+        const cards = [...document.querySelectorAll('.card')].filter(card => !card.closest('.part').hidden);
 
         const index = Math.floor(Math.random() * cards.length);
         const card = cards[index];
