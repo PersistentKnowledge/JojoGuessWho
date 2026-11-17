@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+         body {
+             background-image: url('images/background.png');
+             color: antiquewhite;
+         }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 8px;
+            padding: 8px 0;
+        }
+        .part {
+            border: 2px solid #000000;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            background: rgba(0, 0, 0, 0.35);
+            overflow: hidden;
+        }
+        .part summary {
+            border-radius: 0;
+        }
+        .part[open] summary {
+            border-bottom: 2px solid #3a3a3a;
+        }
+        .part .grid {
+            padding: 8px;
+        }
+        .part summary span {
+            flex: 1;
+        }
+        .card {
+            border: 3px solid #c9a227;
+            border-radius: 6px;
+            padding: 4px;
+            background: #222;
+            cursor: pointer;
+        }
+
+        .portrait {
+            position: relative;
+
+        }
+
+        .card.out .portrait img {
+            filter: grayscale(1) brightness(0.4);
+        }
+        .card.out .portrait::after {
+            content: 'RETIRED';
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            font-size: 1rem;
+            color: #d33;
+        }
+        .portrait img {
+            display: block;
+            max-width: 100%;
+            aspect-ratio: 3 / 4;
+            object-fit: cover;
+        }
+        .name {
+            text-align: center;
+            font-size: 0.85rem;
+            color: antiquewhite;
+        }
+
+    </style>
+
+    <title>Custom Guess Who [WIP]</title>
+</head>
+<body>
+    <h1>Guess Who [WIP]</h1>
+    <button id="reset">Uncheck All</button>
+<div id="board"></div>
+<script type="module">
+    const response = await fetch('jjba_characters.json');
+    const characters = await response.json();
+    const board = document.getElementById('board');
+    const eliminated = new Set();
+
+    function setOut(card, out) {
+        card.classList.toggle('out', out);
+
+        if(out) {
+            eliminated.add(card.dataset.id);
+        }
+        else {
+            eliminated.delete(card.dataset.id);
+        }
+    }
+
+    function makeCard(character) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.id = character.id;
+
+        const img = document.createElement('img');
+        img.src = character.image;
+        img.alt = character.name;
+        img.loading = 'lazy';
+
+        const portrait = document.createElement('div');
+        portrait.className = 'portrait';
+        portrait.append(img);
+
+        const label = document.createElement('div');
+        label.className = 'label';
+        label.textContent = character.name;
+
+        card.append(portrait, label);
+
+        card.addEventListener('click', () => {
+            setOut(card, !card.classList.contains('out'));
+        });
+        return card;
+    }
+
+    const byPart = {};
+    for(const character of characters) {
+        byPart[character.part] ??= [];
+        byPart[character.part].push(character);
+    }
+
+    const parts = Object.keys(byPart).map(Number).sort((a, b) => a - b);
+    for(const part of parts) {
+        const section = document.createElement('details');
+        section.className = 'part';
+        section.open = true;
+
+        const summary = document.createElement('summary');
+        const title = document.createElement('span');
+        title.textContent = `Part ${part}`;
+
+        const markAllBtn = document.createElement('button');
+        markAllBtn.textContent = 'X All';
+
+        const clearBtn = document.createElement('button');
+        clearBtn.textContent = 'Clear';
+
+        summary.append(title, markAllBtn, clearBtn);
+
+        const grid = document.createElement('div');
+        grid.className = 'grid';
+        for (const character of byPart[part]) {
+            grid.append(makeCard(character));
+        }
+
+        markAllBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+            for(const card of grid.querySelectorAll('.card')) {
+                setOut(card, true);
+            }
+        });
+
+        clearBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+            for(const card of grid.querySelectorAll('.card')) {
+                setOut(card, false);
+            }
+        });
+
+        section.append(summary, grid);
+        board.append(section);
+    }
+
+    document.getElementById('reset').addEventListener('click', () => {
+        for(const card of document.querySelectorAll('.card')) {
+            setOut(card, false);
+        }
+    });
+</script>
+</body>
+</html>

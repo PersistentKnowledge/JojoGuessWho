@@ -1,0 +1,2540 @@
+[
+  {
+    "id": "jonathan-joestar-p1",
+    "name": "Jonathan Joestar",
+    "part": 1,
+    "image": "images/jonathan-joestar-p1.png"
+  },
+  {
+    "id": "will-a-zeppeli-p1",
+    "name": "Will A Zeppeli",
+    "part": 1,
+    "image": "images/will-a-zeppeli-p1.png"
+  },
+  {
+    "id": "r-e-o-speedwagon-p1",
+    "name": "R.E.O Speedwagon",
+    "part": 1,
+    "image": "images/r-e-o-speedwagon-p1.png"
+  },
+  {
+    "id": "erina-pendleton-p1",
+    "name": "Erina Pendleton",
+    "part": 1,
+    "image": "images/erina-pendleton-p1.png"
+  },
+  {
+    "id": "george-joestar-i-p1",
+    "name": "George Joestar I",
+    "part": 1,
+    "image": "images/george-joestar-i-p1.png"
+  },
+  {
+    "id": "poco-p1",
+    "name": "Poco",
+    "part": 1,
+    "image": "images/poco-p1.png"
+  },
+  {
+    "id": "tonpetty-p1",
+    "name": "Tonpetty",
+    "part": 1,
+    "image": "images/tonpetty-p1.png"
+  },
+  {
+    "id": "dire-p1",
+    "name": "Dire",
+    "part": 1,
+    "image": "images/dire-p1.png"
+  },
+  {
+    "id": "straizo-p1",
+    "name": "Straizo",
+    "part": 1,
+    "image": "images/straizo-p1.png"
+  },
+  {
+    "id": "dio-brando-p1",
+    "name": "Dio Brando",
+    "part": 1,
+    "image": "images/dio-brando-p1.png"
+  },
+  {
+    "id": "wang-chan-p1",
+    "name": "Wang Chan",
+    "part": 1,
+    "image": "images/wang-chan-p1.jpg"
+  },
+  {
+    "id": "jack-the-ripper-p1",
+    "name": "Jack the Ripper",
+    "part": 1,
+    "image": "images/jack-the-ripper-p1.png"
+  },
+  {
+    "id": "bruford-p1",
+    "name": "Bruford",
+    "part": 1,
+    "image": "images/bruford-p1.png"
+  },
+  {
+    "id": "tarkus-p1",
+    "name": "Tarkus",
+    "part": 1,
+    "image": "images/tarkus-p1.png"
+  },
+  {
+    "id": "doobie-p1",
+    "name": "Doobie",
+    "part": 1,
+    "image": "images/doobie-p1.png"
+  },
+  {
+    "id": "dario-brando-p1",
+    "name": "Dario Brando",
+    "part": 1,
+    "image": "images/dario-brando-p1.png"
+  },
+  {
+    "id": "poco-s-sister-p1",
+    "name": "Poco's Sister",
+    "part": 1,
+    "image": "images/poco-s-sister-p1.png"
+  },
+  {
+    "id": "danny-p1",
+    "name": "Danny",
+    "part": 1,
+    "image": "images/danny-p1.png"
+  },
+  {
+    "id": "joseph-joestar-p2",
+    "name": "Joseph Joestar",
+    "part": 2,
+    "image": "images/joseph-joestar-p2.png"
+  },
+  {
+    "id": "caesar-zeppeli-p2",
+    "name": "Caesar Zeppeli",
+    "part": 2,
+    "image": "images/caesar-zeppeli-p2.png"
+  },
+  {
+    "id": "lisa-lisa-p2",
+    "name": "Lisa Lisa",
+    "part": 2,
+    "image": "images/lisa-lisa-p2.png"
+  },
+  {
+    "id": "rudol-von-stroheim-p2",
+    "name": "Rudol von Stroheim",
+    "part": 2,
+    "image": "images/rudol-von-stroheim-p2.png"
+  },
+  {
+    "id": "r-e-o-speedwagon-p2",
+    "name": "R.E.O Speedwagon",
+    "part": 2,
+    "image": "images/r-e-o-speedwagon-p2.png"
+  },
+  {
+    "id": "erina-joestar-p2",
+    "name": "Erina Joestar",
+    "part": 2,
+    "image": "images/erina-joestar-p2.png"
+  },
+  {
+    "id": "smokey-brown-p2",
+    "name": "Smokey Brown",
+    "part": 2,
+    "image": "images/smokey-brown-p2.png"
+  },
+  {
+    "id": "messina-p2",
+    "name": "Messina",
+    "part": 2,
+    "image": "images/messina-p2.png"
+  },
+  {
+    "id": "loggins-p2",
+    "name": "Loggins",
+    "part": 2,
+    "image": "images/loggins-p2.png"
+  },
+  {
+    "id": "suzi-q-p2",
+    "name": "Suzi Q",
+    "part": 2,
+    "image": "images/suzi-q-p2.png"
+  },
+  {
+    "id": "mark-p2",
+    "name": "Mark",
+    "part": 2,
+    "image": "images/mark-p2.png"
+  },
+  {
+    "id": "mario-zeppeli-p2",
+    "name": "Mario Zeppeli",
+    "part": 2,
+    "image": "images/mario-zeppeli-p2.png"
+  },
+  {
+    "id": "kars-p2",
+    "name": "Kars",
+    "part": 2,
+    "image": "images/kars-p2.png"
+  },
+  {
+    "id": "esidisi-p2",
+    "name": "Esidisi",
+    "part": 2,
+    "image": "images/esidisi-p2.png"
+  },
+  {
+    "id": "wamuu-p2",
+    "name": "Wamuu",
+    "part": 2,
+    "image": "images/wamuu-p2.png"
+  },
+  {
+    "id": "santana-p2",
+    "name": "Santana",
+    "part": 2,
+    "image": "images/santana-p2.png"
+  },
+  {
+    "id": "straizo-p2",
+    "name": "Straizo",
+    "part": 2,
+    "image": "images/straizo-p2.png"
+  },
+  {
+    "id": "george-joestar-ii-p2",
+    "name": "George Joestar II",
+    "part": 2,
+    "image": "images/george-joestar-ii-p2.png"
+  },
+  {
+    "id": "jotaro-kujo-p3",
+    "name": "Jotaro Kujo",
+    "part": 3,
+    "image": "images/jotaro-kujo-p3.png"
+  },
+  {
+    "id": "star-platinum-p3",
+    "name": "Star Platinum",
+    "part": 3,
+    "image": "images/star-platinum-p3.png"
+  },
+  {
+    "id": "joseph-joestar-p3",
+    "name": "Joseph Joestar",
+    "part": 3,
+    "image": "images/joseph-joestar-p3.png"
+  },
+  {
+    "id": "hermit-purple-p3",
+    "name": "Hermit Purple",
+    "part": 3,
+    "image": "images/hermit-purple-p3.png"
+  },
+  {
+    "id": "muhammed-avdol-p3",
+    "name": "Muhammed Avdol",
+    "part": 3,
+    "image": "images/muhammed-avdol-p3.png"
+  },
+  {
+    "id": "magician-s-red-p3",
+    "name": "Magician's Red",
+    "part": 3,
+    "image": "images/magician-s-red-p3.png"
+  },
+  {
+    "id": "noriaki-kakyoin-p3",
+    "name": "Noriaki Kakyoin",
+    "part": 3,
+    "image": "images/noriaki-kakyoin-p3.png"
+  },
+  {
+    "id": "hierophant-green-p3",
+    "name": "Hierophant Green",
+    "part": 3,
+    "image": "images/hierophant-green-p3.png"
+  },
+  {
+    "id": "jean-pierre-polnareff-p3",
+    "name": "Jean Pierre Polnareff",
+    "part": 3,
+    "image": "images/jean-pierre-polnareff-p3.png"
+  },
+  {
+    "id": "silver-chariot-p3",
+    "name": "Silver Chariot",
+    "part": 3,
+    "image": "images/silver-chariot-p3.png"
+  },
+  {
+    "id": "iggy-p3",
+    "name": "Iggy",
+    "part": 3,
+    "image": "images/iggy-p3.png"
+  },
+  {
+    "id": "the-fool-p3",
+    "name": "The Fool",
+    "part": 3,
+    "image": "images/the-fool-p3.png"
+  },
+  {
+    "id": "dio-p3",
+    "name": "DIO",
+    "part": 3,
+    "image": "images/dio-p3.png"
+  },
+  {
+    "id": "the-world-p3",
+    "name": "The World",
+    "part": 3,
+    "image": "images/the-world-p3.png"
+  },
+  {
+    "id": "holy-kujo-p3",
+    "name": "Holy Kujo",
+    "part": 3,
+    "image": "images/holy-kujo-p3.png"
+  },
+  {
+    "id": "holy-s-stand-p3",
+    "name": "Holy's Stand",
+    "part": 3,
+    "image": "images/holy-s-stand-p3.png"
+  },
+  {
+    "id": "merlai-anne-p3",
+    "name": "Merlai Anne",
+    "part": 3,
+    "image": "images/merlai-anne-p3.png"
+  },
+  {
+    "id": "suzi-q-p3",
+    "name": "Suzi Q",
+    "part": 3,
+    "image": "images/suzi-q-p3.png"
+  },
+  {
+    "id": "cherie-polnareff-p3",
+    "name": "Cherie Polnareff",
+    "part": 3,
+    "image": "images/cherie-polnareff-p3.png"
+  },
+  {
+    "id": "vanilla-ice-p3",
+    "name": "Vanilla Ice",
+    "part": 3,
+    "image": "images/vanilla-ice-p3.png"
+  },
+  {
+    "id": "cream-p3",
+    "name": "Cream",
+    "part": 3,
+    "image": "images/cream-p3.png"
+  },
+  {
+    "id": "n-doul-p3",
+    "name": "N'Doul",
+    "part": 3,
+    "image": "images/n-doul-p3.png"
+  },
+  {
+    "id": "geb-p3",
+    "name": "Geb",
+    "part": 3,
+    "image": "images/geb-p3.png"
+  },
+  {
+    "id": "oingo-p3",
+    "name": "Oingo",
+    "part": 3,
+    "image": "images/oingo-p3.png"
+  },
+  {
+    "id": "khnum-p3",
+    "name": "Khnum",
+    "part": 3,
+    "image": "images/khnum-p3.png"
+  },
+  {
+    "id": "boingo-p3",
+    "name": "Boingo",
+    "part": 3,
+    "image": "images/boingo-p3.png"
+  },
+  {
+    "id": "tohth-p3",
+    "name": "Tohth",
+    "part": 3,
+    "image": "images/tohth-p3.png"
+  },
+  {
+    "id": "anubis-p3",
+    "name": "Anubis",
+    "part": 3,
+    "image": "images/anubis-p3.png"
+  },
+  {
+    "id": "mariah-p3",
+    "name": "Mariah",
+    "part": 3,
+    "image": "images/mariah-p3.png"
+  },
+  {
+    "id": "bastet-p3",
+    "name": "Bastet",
+    "part": 3,
+    "image": "images/bastet-p3.png"
+  },
+  {
+    "id": "alessi-p3",
+    "name": "Alessi",
+    "part": 3,
+    "image": "images/alessi-p3.png"
+  },
+  {
+    "id": "sethan-p3",
+    "name": "Sethan",
+    "part": 3,
+    "image": "images/sethan-p3.png"
+  },
+  {
+    "id": "daniel-j-d-arby-p3",
+    "name": "Daniel J. D'Arby",
+    "part": 3,
+    "image": "images/daniel-j-d-arby-p3.png"
+  },
+  {
+    "id": "osiris-p3",
+    "name": "Osiris",
+    "part": 3,
+    "image": "images/osiris-p3.png"
+  },
+  {
+    "id": "pet-shop-p3",
+    "name": "Pet Shop",
+    "part": 3,
+    "image": "images/pet-shop-p3.png"
+  },
+  {
+    "id": "horus-p3",
+    "name": "Horus",
+    "part": 3,
+    "image": "images/horus-p3.png"
+  },
+  {
+    "id": "telence-t-d-arby-p3",
+    "name": "Telence T. D'Arby",
+    "part": 3,
+    "image": "images/telence-t-d-arby-p3.png"
+  },
+  {
+    "id": "atum-p3",
+    "name": "Atum",
+    "part": 3,
+    "image": "images/atum-p3.png"
+  },
+  {
+    "id": "kenny-g-p3",
+    "name": "Kenny G",
+    "part": 3,
+    "image": "images/kenny-g-p3.png"
+  },
+  {
+    "id": "tenore-sax-p3",
+    "name": "Tenore Sax",
+    "part": 3,
+    "image": "images/tenore-sax-p3.png"
+  },
+  {
+    "id": "nukesaku-p3",
+    "name": "Nukesaku",
+    "part": 3,
+    "image": "images/nukesaku-p3.png"
+  },
+  {
+    "id": "gray-fly-p3",
+    "name": "Gray Fly",
+    "part": 3,
+    "image": "images/gray-fly-p3.jpg"
+  },
+  {
+    "id": "tower-of-gray-p3",
+    "name": "Tower of Gray",
+    "part": 3,
+    "image": "images/tower-of-gray-p3.png"
+  },
+  {
+    "id": "imposter-captain-tennille-p3",
+    "name": "Imposter Captain Tennille",
+    "part": 3,
+    "image": "images/imposter-captain-tennille-p3.png"
+  },
+  {
+    "id": "dark-blue-moon-p3",
+    "name": "Dark Blue Moon",
+    "part": 3,
+    "image": "images/dark-blue-moon-p3.png"
+  },
+  {
+    "id": "forever-p3",
+    "name": "Forever",
+    "part": 3,
+    "image": "images/forever-p3.png"
+  },
+  {
+    "id": "strength-p3",
+    "name": "Strength",
+    "part": 3,
+    "image": "images/strength-p3.png"
+  },
+  {
+    "id": "devo-the-cursed-p3",
+    "name": "Devo the Cursed",
+    "part": 3,
+    "image": "images/devo-the-cursed-p3.png"
+  },
+  {
+    "id": "ebony-devil-p3",
+    "name": "Ebony Devil",
+    "part": 3,
+    "image": "images/ebony-devil-p3.png"
+  },
+  {
+    "id": "rubber-soul-p3",
+    "name": "Rubber Soul",
+    "part": 3,
+    "image": "images/rubber-soul-p3.png"
+  },
+  {
+    "id": "yellow-temperance-p3",
+    "name": "Yellow Temperance",
+    "part": 3,
+    "image": "images/yellow-temperance-p3.png"
+  },
+  {
+    "id": "hol-horse-p3",
+    "name": "Hol Horse",
+    "part": 3,
+    "image": "images/hol-horse-p3.png"
+  },
+  {
+    "id": "emperor-p3",
+    "name": "Emperor",
+    "part": 3,
+    "image": "images/emperor-p3.png"
+  },
+  {
+    "id": "j-geil-p3",
+    "name": "J. Geil",
+    "part": 3,
+    "image": "images/j-geil-p3.png"
+  },
+  {
+    "id": "hanged-man-p3",
+    "name": "Hanged Man",
+    "part": 3,
+    "image": "images/hanged-man-p3.png"
+  },
+  {
+    "id": "nena-p3",
+    "name": "Nena",
+    "part": 3,
+    "image": "images/nena-p3.png"
+  },
+  {
+    "id": "empress-p3",
+    "name": "Empress",
+    "part": 3,
+    "image": "images/empress-p3.png"
+  },
+  {
+    "id": "zz-p3",
+    "name": "ZZ",
+    "part": 3,
+    "image": "images/zz-p3.png"
+  },
+  {
+    "id": "wheel-of-fortune-p3",
+    "name": "Wheel of Fortune",
+    "part": 3,
+    "image": "images/wheel-of-fortune-p3.png"
+  },
+  {
+    "id": "enya-the-hag-p3",
+    "name": "Enya the Hag",
+    "part": 3,
+    "image": "images/enya-the-hag-p3.png"
+  },
+  {
+    "id": "justice-p3",
+    "name": "Justice",
+    "part": 3,
+    "image": "images/justice-p3.png"
+  },
+  {
+    "id": "steely-dan-p3",
+    "name": "Steely Dan",
+    "part": 3,
+    "image": "images/steely-dan-p3.png"
+  },
+  {
+    "id": "lovers-p3",
+    "name": "Lovers",
+    "part": 3,
+    "image": "images/lovers-p3.png"
+  },
+  {
+    "id": "arabia-fats-p3",
+    "name": "Arabia Fats",
+    "part": 3,
+    "image": "images/arabia-fats-p3.png"
+  },
+  {
+    "id": "sun-p3",
+    "name": "Sun",
+    "part": 3,
+    "image": "images/sun-p3.png"
+  },
+  {
+    "id": "mannish-boy-p3",
+    "name": "Mannish Boy",
+    "part": 3,
+    "image": "images/mannish-boy-p3.png"
+  },
+  {
+    "id": "death-thirteen-p3",
+    "name": "Death Thirteen",
+    "part": 3,
+    "image": "images/death-thirteen-p3.png"
+  },
+  {
+    "id": "cameo-p3",
+    "name": "Cameo",
+    "part": 3,
+    "image": "images/cameo-p3.png"
+  },
+  {
+    "id": "judgement-p3",
+    "name": "Judgement",
+    "part": 3,
+    "image": "images/judgement-p3.png"
+  },
+  {
+    "id": "midler-p3",
+    "name": "Midler",
+    "part": 3,
+    "image": "images/midler-p3.png"
+  },
+  {
+    "id": "high-priestess-p3",
+    "name": "High Priestess",
+    "part": 3,
+    "image": "images/high-priestess-p3.png"
+  },
+  {
+    "id": "josuke-higashikata-p4",
+    "name": "Josuke Higashikata",
+    "part": 4,
+    "image": "images/josuke-higashikata-p4.png"
+  },
+  {
+    "id": "crazy-diamond-p4",
+    "name": "Crazy Diamond",
+    "part": 4,
+    "image": "images/crazy-diamond-p4.png"
+  },
+  {
+    "id": "koichi-hirose-p4",
+    "name": "Koichi Hirose",
+    "part": 4,
+    "image": "images/koichi-hirose-p4.png"
+  },
+  {
+    "id": "echoes-act1-p4",
+    "name": "Echoes ACT1",
+    "part": 4,
+    "image": "images/echoes-act1-p4.png"
+  },
+  {
+    "id": "echoes-act2-p4",
+    "name": "Echoes ACT2",
+    "part": 4,
+    "image": "images/echoes-act2-p4.png"
+  },
+  {
+    "id": "echoes-act3-p4",
+    "name": "Echoes ACT3",
+    "part": 4,
+    "image": "images/echoes-act3-p4.png"
+  },
+  {
+    "id": "okuyasu-nijimura-p4",
+    "name": "Okuyasu Nijimura",
+    "part": 4,
+    "image": "images/okuyasu-nijimura-p4.png"
+  },
+  {
+    "id": "the-hand-p4",
+    "name": "The Hand",
+    "part": 4,
+    "image": "images/the-hand-p4.png"
+  },
+  {
+    "id": "rohan-kishibe-p4",
+    "name": "Rohan Kishibe",
+    "part": 4,
+    "image": "images/rohan-kishibe-p4.png"
+  },
+  {
+    "id": "heaven-s-door-p4",
+    "name": "Heaven's Door",
+    "part": 4,
+    "image": "images/heaven-s-door-p4.png"
+  },
+  {
+    "id": "jotaro-kujo-p4",
+    "name": "Jotaro Kujo",
+    "part": 4,
+    "image": "images/jotaro-kujo-p4.png"
+  },
+  {
+    "id": "star-platinum-p4",
+    "name": "Star Platinum",
+    "part": 4,
+    "image": "images/star-platinum-p4.png"
+  },
+  {
+    "id": "yoshikage-kira-p4",
+    "name": "Yoshikage Kira",
+    "part": 4,
+    "image": "images/yoshikage-kira-p4.png"
+  },
+  {
+    "id": "killer-queen-p4",
+    "name": "Killer Queen",
+    "part": 4,
+    "image": "images/killer-queen-p4.png"
+  },
+  {
+    "id": "tomoko-higashikata-p4",
+    "name": "Tomoko Higashikata",
+    "part": 4,
+    "image": "images/tomoko-higashikata-p4.png"
+  },
+  {
+    "id": "ryohei-higashikata-p4",
+    "name": "Ryohei Higashikata",
+    "part": 4,
+    "image": "images/ryohei-higashikata-p4.png"
+  },
+  {
+    "id": "father-nijimura-p4",
+    "name": "Father Nijimura",
+    "part": 4,
+    "image": "images/father-nijimura-p4.png"
+  },
+  {
+    "id": "joseph-joestar-p4",
+    "name": "Joseph Joestar",
+    "part": 4,
+    "image": "images/joseph-joestar-p4.png"
+  },
+  {
+    "id": "hermit-purple-p4",
+    "name": "Hermit Purple",
+    "part": 4,
+    "image": "images/hermit-purple-p4.png"
+  },
+  {
+    "id": "reimi-sugimoto-p4",
+    "name": "Reimi Sugimoto",
+    "part": 4,
+    "image": "images/reimi-sugimoto-p4.png"
+  },
+  {
+    "id": "arnold-p4",
+    "name": "Arnold",
+    "part": 4,
+    "image": "images/arnold-p4.png"
+  },
+  {
+    "id": "hayato-kawajiri-p4",
+    "name": "Hayato Kawajiri",
+    "part": 4,
+    "image": "images/hayato-kawajiri-p4.png"
+  },
+  {
+    "id": "yukako-yamagishi-p4",
+    "name": "Yukako Yamagishi",
+    "part": 4,
+    "image": "images/yukako-yamagishi-p4.png"
+  },
+  {
+    "id": "love-deluxe-p4",
+    "name": "Love Deluxe",
+    "part": 4,
+    "image": "images/love-deluxe-p4.png"
+  },
+  {
+    "id": "shigekiyo-yangu-p4",
+    "name": "Shigekiyo Yangu",
+    "part": 4,
+    "image": "images/shigekiyo-yangu-p4.png"
+  },
+  {
+    "id": "harvest-p4",
+    "name": "Harvest",
+    "part": 4,
+    "image": "images/harvest-p4.png"
+  },
+  {
+    "id": "mikitaka-hazekura-p4",
+    "name": "Mikitaka Hazekura",
+    "part": 4,
+    "image": "images/mikitaka-hazekura-p4.png"
+  },
+  {
+    "id": "earth-wind-and-fire-p4",
+    "name": "Earth Wind and Fire",
+    "part": 4,
+    "image": "images/earth-wind-and-fire-p4.png"
+  },
+  {
+    "id": "yuya-fungami-p4",
+    "name": "Yuya Fungami",
+    "part": 4,
+    "image": "images/yuya-fungami-p4.png"
+  },
+  {
+    "id": "highway-star-p4",
+    "name": "Highway Star",
+    "part": 4,
+    "image": "images/highway-star-p4.png"
+  },
+  {
+    "id": "tamami-kobayashi-p4",
+    "name": "Tamami Kobayashi",
+    "part": 4,
+    "image": "images/tamami-kobayashi-p4.png"
+  },
+  {
+    "id": "the-lock-p4",
+    "name": "The Lock",
+    "part": 4,
+    "image": "images/the-lock-p4.png"
+  },
+  {
+    "id": "toshikazu-hazamada-p4",
+    "name": "Toshikazu Hazamada",
+    "part": 4,
+    "image": "images/toshikazu-hazamada-p4.png"
+  },
+  {
+    "id": "surface-p4",
+    "name": "Surface",
+    "part": 4,
+    "image": "images/surface-p4.png"
+  },
+  {
+    "id": "tonio-trussardi-p4",
+    "name": "Tonio Trussardi",
+    "part": 4,
+    "image": "images/tonio-trussardi-p4.png"
+  },
+  {
+    "id": "pearl-jam-p4",
+    "name": "Pearl Jam",
+    "part": 4,
+    "image": "images/pearl-jam-p4.png"
+  },
+  {
+    "id": "aya-tsuji-p4",
+    "name": "Aya Tsuji",
+    "part": 4,
+    "image": "images/aya-tsuji-p4.png"
+  },
+  {
+    "id": "cinderella-p4",
+    "name": "Cinderella",
+    "part": 4,
+    "image": "images/cinderella-p4.png"
+  },
+  {
+    "id": "shizuka-joestar-p4",
+    "name": "Shizuka Joestar",
+    "part": 4,
+    "image": "images/shizuka-joestar-p4.png"
+  },
+  {
+    "id": "achtung-baby-p4",
+    "name": "Achtung Baby",
+    "part": 4,
+    "image": "images/achtung-baby-p4.png"
+  },
+  {
+    "id": "anjuro-katagiri-p4",
+    "name": "Anjuro Katagiri",
+    "part": 4,
+    "image": "images/anjuro-katagiri-p4.png"
+  },
+  {
+    "id": "aqua-necklace-p4",
+    "name": "Aqua Necklace",
+    "part": 4,
+    "image": "images/aqua-necklace-p4.png"
+  },
+  {
+    "id": "keicho-nijimura-p4",
+    "name": "Keicho Nijimura",
+    "part": 4,
+    "image": "images/keicho-nijimura-p4.png"
+  },
+  {
+    "id": "bad-company-p4",
+    "name": "Bad Company",
+    "part": 4,
+    "image": "images/bad-company-p4.png"
+  },
+  {
+    "id": "akira-otoishi-p4",
+    "name": "Akira Otoishi",
+    "part": 4,
+    "image": "images/akira-otoishi-p4.png"
+  },
+  {
+    "id": "red-hot-chili-pepper-p4",
+    "name": "Red Hot Chili Pepper",
+    "part": 4,
+    "image": "images/red-hot-chili-pepper-p4.png"
+  },
+  {
+    "id": "bug-eaten-p4",
+    "name": "Bug-Eaten",
+    "part": 4,
+    "image": "images/bug-eaten-p4.png"
+  },
+  {
+    "id": "ratt-p4",
+    "name": "Ratt",
+    "part": 4,
+    "image": "images/ratt-p4.png"
+  },
+  {
+    "id": "yoshihiro-kira-p4",
+    "name": "Yoshihiro Kira",
+    "part": 4,
+    "image": "images/yoshihiro-kira-p4.png"
+  },
+  {
+    "id": "atom-heart-father-p4",
+    "name": "Atom Heart Father",
+    "part": 4,
+    "image": "images/atom-heart-father-p4.png"
+  },
+  {
+    "id": "tama-p4",
+    "name": "Tama",
+    "part": 4,
+    "image": "images/tama-p4.png"
+  },
+  {
+    "id": "stray-cat-p4",
+    "name": "Stray Cat",
+    "part": 4,
+    "image": "images/stray-cat-p4.png"
+  },
+  {
+    "id": "ken-oyanagi-p4",
+    "name": "Ken Oyanagi",
+    "part": 4,
+    "image": "images/ken-oyanagi-p4.png"
+  },
+  {
+    "id": "boy-ii-man-p4",
+    "name": "Boy II Man",
+    "part": 4,
+    "image": "images/boy-ii-man-p4.png"
+  },
+  {
+    "id": "toyohiro-kanedaichi-p4",
+    "name": "Toyohiro Kanedaichi",
+    "part": 4,
+    "image": "images/toyohiro-kanedaichi-p4.png"
+  },
+  {
+    "id": "superfly-p4",
+    "name": "Superfly",
+    "part": 4,
+    "image": "images/superfly-p4.png"
+  },
+  {
+    "id": "terunosuke-miyamoto-p4",
+    "name": "Terunosuke Miyamoto",
+    "part": 4,
+    "image": "images/terunosuke-miyamoto-p4.png"
+  },
+  {
+    "id": "enigma-p4",
+    "name": "Enigma",
+    "part": 4,
+    "image": "images/enigma-p4.png"
+  },
+  {
+    "id": "masazo-kinoto-p4",
+    "name": "Masazo Kinoto",
+    "part": 4,
+    "image": "images/masazo-kinoto-p4.png"
+  },
+  {
+    "id": "cheap-trick-p4",
+    "name": "Cheap Trick",
+    "part": 4,
+    "image": "images/cheap-trick-p4.png"
+  },
+  {
+    "id": "giorno-giovanna-p5",
+    "name": "Giorno Giovanna",
+    "part": 5,
+    "image": "images/giorno-giovanna-p5.png"
+  },
+  {
+    "id": "gold-experience-p5",
+    "name": "Gold Experience",
+    "part": 5,
+    "image": "images/gold-experience-p5.png"
+  },
+  {
+    "id": "gold-experience-requiem-p5",
+    "name": "Gold Experience Requiem",
+    "part": 5,
+    "image": "images/gold-experience-requiem-p5.png"
+  },
+  {
+    "id": "bruno-bucciarati-p5",
+    "name": "Bruno Bucciarati",
+    "part": 5,
+    "image": "images/bruno-bucciarati-p5.png"
+  },
+  {
+    "id": "sticky-fingers-p5",
+    "name": "Sticky Fingers",
+    "part": 5,
+    "image": "images/sticky-fingers-p5.png"
+  },
+  {
+    "id": "leone-abbachio-p5",
+    "name": "Leone Abbachio",
+    "part": 5,
+    "image": "images/leone-abbachio-p5.png"
+  },
+  {
+    "id": "moody-blues-p5",
+    "name": "Moody Blues",
+    "part": 5,
+    "image": "images/moody-blues-p5.png"
+  },
+  {
+    "id": "guido-mista-p5",
+    "name": "Guido Mista",
+    "part": 5,
+    "image": "images/guido-mista-p5.png"
+  },
+  {
+    "id": "sex-pistols-p5",
+    "name": "Sex Pistols",
+    "part": 5,
+    "image": "images/sex-pistols-p5.png"
+  },
+  {
+    "id": "narancia-ghirga-p5",
+    "name": "Narancia Ghirga",
+    "part": 5,
+    "image": "images/narancia-ghirga-p5.png"
+  },
+  {
+    "id": "aerosmith-p5",
+    "name": "Aerosmith",
+    "part": 5,
+    "image": "images/aerosmith-p5.png"
+  },
+  {
+    "id": "pannacotta-fugo-p5",
+    "name": "Pannacotta Fugo",
+    "part": 5,
+    "image": "images/pannacotta-fugo-p5.png"
+  },
+  {
+    "id": "purple-haze-p5",
+    "name": "Purple Haze",
+    "part": 5,
+    "image": "images/purple-haze-p5.png"
+  },
+  {
+    "id": "trish-una-p5",
+    "name": "Trish Una",
+    "part": 5,
+    "image": "images/trish-una-p5.png"
+  },
+  {
+    "id": "spice-girl-p5",
+    "name": "Spice Girl",
+    "part": 5,
+    "image": "images/spice-girl-p5.png"
+  },
+  {
+    "id": "diavolo-p5",
+    "name": "Diavolo",
+    "part": 5,
+    "image": "images/diavolo-p5.png"
+  },
+  {
+    "id": "king-crimson-p5",
+    "name": "King Crimson",
+    "part": 5,
+    "image": "images/king-crimson-p5.png"
+  },
+  {
+    "id": "vinegar-doppio-p5",
+    "name": "Vinegar Doppio",
+    "part": 5,
+    "image": "images/vinegar-doppio-p5.png"
+  },
+  {
+    "id": "epitaph-p5",
+    "name": "Epitaph",
+    "part": 5,
+    "image": "images/epitaph-p5.png"
+  },
+  {
+    "id": "polpo-p5",
+    "name": "Polpo",
+    "part": 5,
+    "image": "images/polpo-p5.png"
+  },
+  {
+    "id": "black-sabbath-p5",
+    "name": "Black Sabbath",
+    "part": 5,
+    "image": "images/black-sabbath-p5.png"
+  },
+  {
+    "id": "nunzio-pericolo-p5",
+    "name": "Nunzio Pericolo",
+    "part": 5,
+    "image": "images/nunzio-pericolo-p5.png"
+  },
+  {
+    "id": "coco-jumbo-p5",
+    "name": "Coco Jumbo",
+    "part": 5,
+    "image": "images/coco-jumbo-p5.png"
+  },
+  {
+    "id": "mr-president-p5",
+    "name": "Mr. President",
+    "part": 5,
+    "image": "images/mr-president-p5.png"
+  },
+  {
+    "id": "mario-zucchero-p5",
+    "name": "Mario Zucchero",
+    "part": 5,
+    "image": "images/mario-zucchero-p5.png"
+  },
+  {
+    "id": "soft-machine-p5",
+    "name": "Soft Machine",
+    "part": 5,
+    "image": "images/soft-machine-p5.png"
+  },
+  {
+    "id": "sale-p5",
+    "name": "Sale",
+    "part": 5,
+    "image": "images/sale-p5.png"
+  },
+  {
+    "id": "kraft-work-p5",
+    "name": "Kraft Work",
+    "part": 5,
+    "image": "images/kraft-work-p5.png"
+  },
+  {
+    "id": "leaky-eye-luca-p5",
+    "name": "Leaky-Eye Luca",
+    "part": 5,
+    "image": "images/leaky-eye-luca-p5.png"
+  },
+  {
+    "id": "risotto-nero-p5",
+    "name": "Risotto Nero",
+    "part": 5,
+    "image": "images/risotto-nero-p5.png"
+  },
+  {
+    "id": "metallica-p5",
+    "name": "Metallica",
+    "part": 5,
+    "image": "images/metallica-p5.png"
+  },
+  {
+    "id": "formaggio-p5",
+    "name": "Formaggio",
+    "part": 5,
+    "image": "images/formaggio-p5.png"
+  },
+  {
+    "id": "little-feet-p5",
+    "name": "Little Feet",
+    "part": 5,
+    "image": "images/little-feet-p5.png"
+  },
+  {
+    "id": "illuso-p5",
+    "name": "Illuso",
+    "part": 5,
+    "image": "images/illuso-p5.png"
+  },
+  {
+    "id": "man-in-the-mirror-p5",
+    "name": "Man in the Mirror",
+    "part": 5,
+    "image": "images/man-in-the-mirror-p5.png"
+  },
+  {
+    "id": "prosciutto-p5",
+    "name": "Prosciutto",
+    "part": 5,
+    "image": "images/prosciutto-p5.png"
+  },
+  {
+    "id": "the-grateful-dead-p5",
+    "name": "The Grateful Dead",
+    "part": 5,
+    "image": "images/the-grateful-dead-p5.png"
+  },
+  {
+    "id": "pesci-p5",
+    "name": "Pesci",
+    "part": 5,
+    "image": "images/pesci-p5.png"
+  },
+  {
+    "id": "beach-boy-p5",
+    "name": "Beach Boy",
+    "part": 5,
+    "image": "images/beach-boy-p5.png"
+  },
+  {
+    "id": "melone-p5",
+    "name": "Melone",
+    "part": 5,
+    "image": "images/melone-p5.jpg"
+  },
+  {
+    "id": "baby-face-p5",
+    "name": "Baby Face",
+    "part": 5,
+    "image": "images/baby-face-p5.png"
+  },
+  {
+    "id": "ghiaccio-p5",
+    "name": "Ghiaccio",
+    "part": 5,
+    "image": "images/ghiaccio-p5.png"
+  },
+  {
+    "id": "white-album-p5",
+    "name": "White Album",
+    "part": 5,
+    "image": "images/white-album-p5.png"
+  },
+  {
+    "id": "sorbet-p5",
+    "name": "Sorbet",
+    "part": 5,
+    "image": "images/sorbet-p5.png"
+  },
+  {
+    "id": "gelato-p5",
+    "name": "Gelato",
+    "part": 5,
+    "image": "images/gelato-p5.png"
+  },
+  {
+    "id": "squalo-p5",
+    "name": "Squalo",
+    "part": 5,
+    "image": "images/squalo-p5.png"
+  },
+  {
+    "id": "clash-p5",
+    "name": "Clash",
+    "part": 5,
+    "image": "images/clash-p5.png"
+  },
+  {
+    "id": "tizzano-p5",
+    "name": "Tizzano",
+    "part": 5,
+    "image": "images/tizzano-p5.png"
+  },
+  {
+    "id": "talking-head-p5",
+    "name": "Talking Head",
+    "part": 5,
+    "image": "images/talking-head-p5.png"
+  },
+  {
+    "id": "carne-p5",
+    "name": "Carne",
+    "part": 5,
+    "image": "images/carne-p5.png"
+  },
+  {
+    "id": "notorious-b-i-g-p5",
+    "name": "Notorious B.I.G",
+    "part": 5,
+    "image": "images/notorious-b-i-g-p5.jpg"
+  },
+  {
+    "id": "cioccolata-p5",
+    "name": "Cioccolata",
+    "part": 5,
+    "image": "images/cioccolata-p5.png"
+  },
+  {
+    "id": "green-day-p5",
+    "name": "Green Day",
+    "part": 5,
+    "image": "images/green-day-p5.png"
+  },
+  {
+    "id": "secco-p5",
+    "name": "Secco",
+    "part": 5,
+    "image": "images/secco-p5.png"
+  },
+  {
+    "id": "oasis-p5",
+    "name": "Oasis",
+    "part": 5,
+    "image": "images/oasis-p5.png"
+  },
+  {
+    "id": "jotaro-kujo-p5",
+    "name": "Jotaro Kujo",
+    "part": 5,
+    "image": "images/jotaro-kujo-p5.png"
+  },
+  {
+    "id": "jean-pierre-polnareff-p5",
+    "name": "Jean Pierre Polnareff",
+    "part": 5,
+    "image": "images/jean-pierre-polnareff-p5.png"
+  },
+  {
+    "id": "silver-chariot-requiem-p5",
+    "name": "Silver Chariot Requiem",
+    "part": 5,
+    "image": "images/silver-chariot-requiem-p5.png"
+  },
+  {
+    "id": "silver-chariot-p5",
+    "name": "Silver Chariot",
+    "part": 5,
+    "image": "images/silver-chariot-p5.png"
+  },
+  {
+    "id": "scolippi-p5",
+    "name": "Scolippi",
+    "part": 5,
+    "image": "images/scolippi-p5.png"
+  },
+  {
+    "id": "rolling-stones-p5",
+    "name": "Rolling Stones",
+    "part": 5,
+    "image": "images/rolling-stones-p5.png"
+  },
+  {
+    "id": "jolyne-cujoh-p6",
+    "name": "Jolyne Cujoh",
+    "part": 6,
+    "image": "images/jolyne-cujoh-p6.png"
+  },
+  {
+    "id": "stone-free-p6",
+    "name": "Stone Free",
+    "part": 6,
+    "image": "images/stone-free-p6.png"
+  },
+  {
+    "id": "ermes-costello-p6",
+    "name": "Ermes Costello",
+    "part": 6,
+    "image": "images/ermes-costello-p6.png"
+  },
+  {
+    "id": "kiss-p6",
+    "name": "Kiss",
+    "part": 6,
+    "image": "images/kiss-p6.png"
+  },
+  {
+    "id": "foo-fighters-p6",
+    "name": "Foo Fighters",
+    "part": 6,
+    "image": "images/foo-fighters-p6.png"
+  },
+  {
+    "id": "emporio-alnino-p6",
+    "name": "Emporio Alnino",
+    "part": 6,
+    "image": "images/emporio-alnino-p6.png"
+  },
+  {
+    "id": "burning-down-the-house-p6",
+    "name": "Burning Down the House",
+    "part": 6,
+    "image": "images/burning-down-the-house-p6.png"
+  },
+  {
+    "id": "wes-bluemarine-p6",
+    "name": "Wes Bluemarine",
+    "part": 6,
+    "image": "images/wes-bluemarine-p6.png"
+  },
+  {
+    "id": "weather-report-p6",
+    "name": "Weather Report",
+    "part": 6,
+    "image": "images/weather-report-p6.png"
+  },
+  {
+    "id": "narciso-anasui-p6",
+    "name": "Narciso Anasui",
+    "part": 6,
+    "image": "images/narciso-anasui-p6.png"
+  },
+  {
+    "id": "diver-down-p6",
+    "name": "Diver Down",
+    "part": 6,
+    "image": "images/diver-down-p6.png"
+  },
+  {
+    "id": "jotaro-kujo-p6",
+    "name": "Jotaro Kujo",
+    "part": 6,
+    "image": "images/jotaro-kujo-p6.png"
+  },
+  {
+    "id": "star-platinum-p6",
+    "name": "Star Platinum",
+    "part": 6,
+    "image": "images/star-platinum-p6.png"
+  },
+  {
+    "id": "enrico-pucci-p6",
+    "name": "Enrico Pucci",
+    "part": 6,
+    "image": "images/enrico-pucci-p6.png"
+  },
+  {
+    "id": "whitesnake-p6",
+    "name": "Whitesnake",
+    "part": 6,
+    "image": "images/whitesnake-p6.png"
+  },
+  {
+    "id": "c-moon-p6",
+    "name": "C-MOON",
+    "part": 6,
+    "image": "images/c-moon-p6.png"
+  },
+  {
+    "id": "made-in-heaven-p6",
+    "name": "Made In Heaven",
+    "part": 6,
+    "image": "images/made-in-heaven-p6.png"
+  },
+  {
+    "id": "loccobarocco-p6",
+    "name": "Loccobarocco",
+    "part": 6,
+    "image": "images/loccobarocco-p6.png"
+  },
+  {
+    "id": "gwess-p6",
+    "name": "Gwess",
+    "part": 6,
+    "image": "images/gwess-p6.png"
+  },
+  {
+    "id": "goo-goo-dolls-p6",
+    "name": "Goo Goo Dolls",
+    "part": 6,
+    "image": "images/goo-goo-dolls-p6.png"
+  },
+  {
+    "id": "johngalli-a-p6",
+    "name": "Johngalli A.",
+    "part": 6,
+    "image": "images/johngalli-a-p6.png"
+  },
+  {
+    "id": "manhattan-transfer-p6",
+    "name": "Manhattan Transfer",
+    "part": 6,
+    "image": "images/manhattan-transfer-p6.png"
+  },
+  {
+    "id": "thunder-mcqueen-p6",
+    "name": "Thunder McQueen",
+    "part": 6,
+    "image": "images/thunder-mcqueen-p6.png"
+  },
+  {
+    "id": "highway-to-hell-p6",
+    "name": "Highway to Hell",
+    "part": 6,
+    "image": "images/highway-to-hell-p6.png"
+  },
+  {
+    "id": "atroe-p6",
+    "name": "Atroe",
+    "part": 6,
+    "image": "images/atroe-p6.png"
+  },
+  {
+    "id": "miraschon-p6",
+    "name": "Miraschon",
+    "part": 6,
+    "image": "images/miraschon-p6.png"
+  },
+  {
+    "id": "marilyn-manson-p6",
+    "name": "Marilyn Manson",
+    "part": 6,
+    "image": "images/marilyn-manson-p6.png"
+  },
+  {
+    "id": "lang-rangler-p6",
+    "name": "Lang Rangler",
+    "part": 6,
+    "image": "images/lang-rangler-p6.png"
+  },
+  {
+    "id": "jumpin-jack-flash-p6",
+    "name": "Jumpin' Jack Flash",
+    "part": 6,
+    "image": "images/jumpin-jack-flash-p6.png"
+  },
+  {
+    "id": "sports-maxx-p6",
+    "name": "Sports Maxx",
+    "part": 6,
+    "image": "images/sports-maxx-p6.png"
+  },
+  {
+    "id": "limp-bizkit-p6",
+    "name": "Limp Bizkit",
+    "part": 6,
+    "image": "images/limp-bizkit-p6.png"
+  },
+  {
+    "id": "viviano-westwood-p6",
+    "name": "Viviano Westwood",
+    "part": 6,
+    "image": "images/viviano-westwood-p6.png"
+  },
+  {
+    "id": "planet-waves-p6",
+    "name": "Planet Waves",
+    "part": 6,
+    "image": "images/planet-waves-p6.png"
+  },
+  {
+    "id": "sonny-likir-p6",
+    "name": "Sonny Likir",
+    "part": 6,
+    "image": "images/sonny-likir-p6.png"
+  },
+  {
+    "id": "kenzou-p6",
+    "name": "Kenzou",
+    "part": 6,
+    "image": "images/kenzou-p6.png"
+  },
+  {
+    "id": "dragon-s-dream-p6",
+    "name": "Dragon's Dream",
+    "part": 6,
+    "image": "images/dragon-s-dream-p6.png"
+  },
+  {
+    "id": "d-an-g-p6",
+    "name": "D an G",
+    "part": 6,
+    "image": "images/d-an-g-p6.png"
+  },
+  {
+    "id": "yo-yo-ma-p6",
+    "name": "Yo-Yo Ma",
+    "part": 6,
+    "image": "images/yo-yo-ma-p6.png"
+  },
+  {
+    "id": "guccio-p6",
+    "name": "Guccio",
+    "part": 6,
+    "image": "images/guccio-p6.png"
+  },
+  {
+    "id": "survivor-p6",
+    "name": "Survivor",
+    "part": 6,
+    "image": "images/survivor-p6.png"
+  },
+  {
+    "id": "miuccia-miuller-p6",
+    "name": "Miuccia Miuller",
+    "part": 6,
+    "image": "images/miuccia-miuller-p6.png"
+  },
+  {
+    "id": "jail-house-lock-p6",
+    "name": "Jail House Lock",
+    "part": 6,
+    "image": "images/jail-house-lock-p6.png"
+  },
+  {
+    "id": "dio-p6",
+    "name": "DIO",
+    "part": 6,
+    "image": "images/dio-p6.png"
+  },
+  {
+    "id": "the-world-p6",
+    "name": "The World",
+    "part": 6,
+    "image": "images/the-world-p6.png"
+  },
+  {
+    "id": "ungalo-p6",
+    "name": "Ungalo",
+    "part": 6,
+    "image": "images/ungalo-p6.png"
+  },
+  {
+    "id": "bohemian-rhapsody-p6",
+    "name": "Bohemian Rhapsody",
+    "part": 6,
+    "image": "images/bohemian-rhapsody-p6.png"
+  },
+  {
+    "id": "rikiel-p6",
+    "name": "Rikiel",
+    "part": 6,
+    "image": "images/rikiel-p6.png"
+  },
+  {
+    "id": "sky-high-p6",
+    "name": "Sky High",
+    "part": 6,
+    "image": "images/sky-high-p6.png"
+  },
+  {
+    "id": "donatello-versus-p6",
+    "name": "Donatello Versus",
+    "part": 6,
+    "image": "images/donatello-versus-p6.png"
+  },
+  {
+    "id": "under-world-p6",
+    "name": "Under World",
+    "part": 6,
+    "image": "images/under-world-p6.png"
+  },
+  {
+    "id": "romeo-jisso-p6",
+    "name": "Romeo Jisso",
+    "part": 6,
+    "image": "images/romeo-jisso-p6.png"
+  },
+  {
+    "id": "savage-garden-p6",
+    "name": "Savage Garden",
+    "part": 6,
+    "image": "images/savage-garden-p6.png"
+  },
+  {
+    "id": "the-green-baby-p6",
+    "name": "The Green Baby",
+    "part": 6,
+    "image": "images/the-green-baby-p6.png"
+  },
+  {
+    "id": "green-green-grass-of-home-p6",
+    "name": "Green, Green Grass of Home",
+    "part": 6,
+    "image": "images/green-green-grass-of-home-p6.png"
+  },
+  {
+    "id": "johnny-joestar-p7",
+    "name": "Johnny Joestar",
+    "part": 7,
+    "image": "images/johnny-joestar-p7.png"
+  },
+  {
+    "id": "tusk-act1-p7",
+    "name": "Tusk ACT1",
+    "part": 7,
+    "image": "images/tusk-act1-p7.png"
+  },
+  {
+    "id": "tusk-act2-p7",
+    "name": "Tusk ACT2",
+    "part": 7,
+    "image": "images/tusk-act2-p7.png"
+  },
+  {
+    "id": "tusk-act3-p7",
+    "name": "Tusk ACT3",
+    "part": 7,
+    "image": "images/tusk-act3-p7.png"
+  },
+  {
+    "id": "tusk-act4-p7",
+    "name": "Tusk ACT4",
+    "part": 7,
+    "image": "images/tusk-act4-p7.png"
+  },
+  {
+    "id": "gyro-zeppeli-p7",
+    "name": "Gyro Zeppeli",
+    "part": 7,
+    "image": "images/gyro-zeppeli-p7.png"
+  },
+  {
+    "id": "ball-breaker-p7",
+    "name": "Ball Breaker",
+    "part": 7,
+    "image": "images/ball-breaker-p7.png"
+  },
+  {
+    "id": "steven-steel-p7",
+    "name": "Steven Steel",
+    "part": 7,
+    "image": "images/steven-steel-p7.png"
+  },
+  {
+    "id": "lucy-steel-p7",
+    "name": "Lucy Steel",
+    "part": 7,
+    "image": "images/lucy-steel-p7.png"
+  },
+  {
+    "id": "ticket-to-ride-p7",
+    "name": "Ticket to Ride",
+    "part": 7,
+    "image": "images/ticket-to-ride-p7.png"
+  },
+  {
+    "id": "diego-brando-p7",
+    "name": "Diego Brando",
+    "part": 7,
+    "image": "images/diego-brando-p7.png"
+  },
+  {
+    "id": "scary-monsters-p7",
+    "name": "Scary Monsters",
+    "part": 7,
+    "image": "images/scary-monsters-p7.png"
+  },
+  {
+    "id": "hot-pants-p7",
+    "name": "Hot Pants",
+    "part": 7,
+    "image": "images/hot-pants-p7.png"
+  },
+  {
+    "id": "cream-starter-p7",
+    "name": "Cream Starter",
+    "part": 7,
+    "image": "images/cream-starter-p7.png"
+  },
+  {
+    "id": "mountain-tim-p7",
+    "name": "Mountain Tim",
+    "part": 7,
+    "image": "images/mountain-tim-p7.png"
+  },
+  {
+    "id": "oh-lonesome-me-p7",
+    "name": "Oh! Lonesome Me",
+    "part": 7,
+    "image": "images/oh-lonesome-me-p7.png"
+  },
+  {
+    "id": "funny-valentine-p7",
+    "name": "Funny Valentine",
+    "part": 7,
+    "image": "images/funny-valentine-p7.png"
+  },
+  {
+    "id": "dirty-deeds-done-dirt-cheap-p7",
+    "name": "Dirty Deeds Done Dirt Cheap",
+    "part": 7,
+    "image": "images/dirty-deeds-done-dirt-cheap-p7.png"
+  },
+  {
+    "id": "d4c-love-train-p7",
+    "name": "D4C Love Train",
+    "part": 7,
+    "image": "images/d4c-love-train-p7.jpg"
+  },
+  {
+    "id": "sandman-p7",
+    "name": "Sandman",
+    "part": 7,
+    "image": "images/sandman-p7.png"
+  },
+  {
+    "id": "in-a-silent-way-p7",
+    "name": "In a Silent Way",
+    "part": 7,
+    "image": "images/in-a-silent-way-p7.png"
+  },
+  {
+    "id": "pocoloco-p7",
+    "name": "Pocoloco",
+    "part": 7,
+    "image": "images/pocoloco-p7.png"
+  },
+  {
+    "id": "hey-ya-stand-p7",
+    "name": "Hey Ya! (Stand)",
+    "part": 7,
+    "image": "images/hey-ya-stand-p7.png"
+  },
+  {
+    "id": "benjamin-boomboom-p7",
+    "name": "Benjamin Boomboom",
+    "part": 7,
+    "image": "images/benjamin-boomboom-p7.png"
+  },
+  {
+    "id": "tomb-of-the-boom-p7",
+    "name": "Tomb of the Boom",
+    "part": 7,
+    "image": "images/tomb-of-the-boom-p7.png"
+  },
+  {
+    "id": "andre-boomboom-p7",
+    "name": "Andre Boomboom",
+    "part": 7,
+    "image": "images/andre-boomboom-p7.png"
+  },
+  {
+    "id": "l-a-boomboom-p7",
+    "name": "L.A. Boomboom",
+    "part": 7,
+    "image": "images/l-a-boomboom-p7.png"
+  },
+  {
+    "id": "oyecomova-p7",
+    "name": "Oyecomova",
+    "part": 7,
+    "image": "images/oyecomova-p7.png"
+  },
+  {
+    "id": "boku-no-rhythm-wo-kiitekure-p7",
+    "name": "Boku no Rhythm wo Kiitekure",
+    "part": 7,
+    "image": "images/boku-no-rhythm-wo-kiitekure-p7.png"
+  },
+  {
+    "id": "pork-pie-hat-kid-p7",
+    "name": "Pork Pie Hat Kid",
+    "part": 7,
+    "image": "images/pork-pie-hat-kid-p7.png"
+  },
+  {
+    "id": "wired-p7",
+    "name": "Wired",
+    "part": 7,
+    "image": "images/wired-p7.png"
+  },
+  {
+    "id": "dr-ferdinand-p7",
+    "name": "Dr. Ferdinand",
+    "part": 7,
+    "image": "images/dr-ferdinand-p7.png"
+  },
+  {
+    "id": "ringo-roadagain-p7",
+    "name": "Ringo Roadagain",
+    "part": 7,
+    "image": "images/ringo-roadagain-p7.png"
+  },
+  {
+    "id": "mandom-p7",
+    "name": "Mandom",
+    "part": 7,
+    "image": "images/mandom-p7.png"
+  },
+  {
+    "id": "blackmore-p7",
+    "name": "Blackmore",
+    "part": 7,
+    "image": "images/blackmore-p7.png"
+  },
+  {
+    "id": "catch-the-rainbow-p7",
+    "name": "Catch the Rainbow",
+    "part": 7,
+    "image": "images/catch-the-rainbow-p7.png"
+  },
+  {
+    "id": "sugar-mountain-p7",
+    "name": "Sugar Mountain",
+    "part": 7,
+    "image": "images/sugar-mountain-p7.png"
+  },
+  {
+    "id": "great-tree-p7",
+    "name": "Great Tree",
+    "part": 7,
+    "image": "images/great-tree-p7.png"
+  },
+  {
+    "id": "eleven-men-p7",
+    "name": "Eleven Men",
+    "part": 7,
+    "image": "images/eleven-men-p7.png"
+  },
+  {
+    "id": "tatoo-you-p7",
+    "name": "TATOO YOU!",
+    "part": 7,
+    "image": "images/tatoo-you-p7.png"
+  },
+  {
+    "id": "mike-o-p7",
+    "name": "Mike O.",
+    "part": 7,
+    "image": "images/mike-o-p7.png"
+  },
+  {
+    "id": "tubular-bells-p7",
+    "name": "Tubular Bells",
+    "part": 7,
+    "image": "images/tubular-bells-p7.png"
+  },
+  {
+    "id": "wekapipo-p7",
+    "name": "Wekapipo",
+    "part": 7,
+    "image": "images/wekapipo-p7.png"
+  },
+  {
+    "id": "magent-magent-p7",
+    "name": "Magent Magent",
+    "part": 7,
+    "image": "images/magent-magent-p7.png"
+  },
+  {
+    "id": "20th-century-boy-p7",
+    "name": "20th Century BOY",
+    "part": 7,
+    "image": "images/20th-century-boy-p7.png"
+  },
+  {
+    "id": "axl-ro-p7",
+    "name": "Axl RO",
+    "part": 7,
+    "image": "images/axl-ro-p7.png"
+  },
+  {
+    "id": "civil-war-p7",
+    "name": "Civil War",
+    "part": 7,
+    "image": "images/civil-war-p7.png"
+  },
+  {
+    "id": "d-i-s-c-o-p7",
+    "name": "D-I-S-C-O",
+    "part": 7,
+    "image": "images/d-i-s-c-o-p7.png"
+  },
+  {
+    "id": "chocolate-disco-p7",
+    "name": "Chocolate Disco",
+    "part": 7,
+    "image": "images/chocolate-disco-p7.png"
+  },
+  {
+    "id": "parallel-world-diego-p7",
+    "name": "Parallel World Diego",
+    "part": 7,
+    "image": "images/parallel-world-diego-p7.png"
+  },
+  {
+    "id": "the-world-p7",
+    "name": "The World",
+    "part": 7,
+    "image": "images/the-world-p7.png"
+  },
+  {
+    "id": "mrs-robinson-p7",
+    "name": "Mrs. Robinson",
+    "part": 7,
+    "image": "images/mrs-robinson-p7.png"
+  },
+  {
+    "id": "urmd-avdul-p7",
+    "name": "Urmd Avdul",
+    "part": 7,
+    "image": "images/urmd-avdul-p7.png"
+  },
+  {
+    "id": "president-s-aids-p7",
+    "name": "President's Aids",
+    "part": 7,
+    "image": "images/president-s-aids-p7.png"
+  },
+  {
+    "id": "jesus-christ-p7",
+    "name": "Jesus Christ",
+    "part": 7,
+    "image": "images/jesus-christ-p7.png"
+  },
+  {
+    "id": "norisuke-higashikata-p7",
+    "name": "Norisuke Higashikata",
+    "part": 7,
+    "image": "images/norisuke-higashikata-p7.png"
+  },
+  {
+    "id": "george-joestar-ii-p7",
+    "name": "George Joestar II",
+    "part": 7,
+    "image": "images/george-joestar-ii-p7.png"
+  },
+  {
+    "id": "scarlet-valentine-p7",
+    "name": "Scarlet Valentine",
+    "part": 7,
+    "image": "images/scarlet-valentine-p7.png"
+  },
+  {
+    "id": "she-who-dances-with-the-leaves-p7",
+    "name": "She Who Dances with the Leaves",
+    "part": 7,
+    "image": "images/she-who-dances-with-the-leaves-p7.png"
+  },
+  {
+    "id": "sheriff-derek-p7",
+    "name": "Sheriff Derek",
+    "part": 7,
+    "image": "images/sheriff-derek-p7.png"
+  },
+  {
+    "id": "dot-han-p7",
+    "name": "Dot Han",
+    "part": 7,
+    "image": "images/dot-han-p7.png"
+  },
+  {
+    "id": "baba-yaga-p7",
+    "name": "Baba Yaga",
+    "part": 7,
+    "image": "images/baba-yaga-p7.png"
+  },
+  {
+    "id": "gregorio-zeppeli-p7",
+    "name": "Gregorio Zeppeli",
+    "part": 7,
+    "image": "images/gregorio-zeppeli-p7.png"
+  },
+  {
+    "id": "marco-p7",
+    "name": "Marco",
+    "part": 7,
+    "image": "images/marco-p7.png"
+  },
+  {
+    "id": "joseph-of-arimathea-p7",
+    "name": "Joseph of Arimathea",
+    "part": 7,
+    "image": "images/joseph-of-arimathea-p7.png"
+  },
+  {
+    "id": "nicholas-joestar-p7",
+    "name": "Nicholas Joestar",
+    "part": 7,
+    "image": "images/nicholas-joestar-p7.png"
+  },
+  {
+    "id": "danny-p7",
+    "name": "Danny",
+    "part": 7,
+    "image": "images/danny-p7.png"
+  },
+  {
+    "id": "slow-dancer-p7",
+    "name": "Slow Dancer",
+    "part": 7,
+    "image": "images/slow-dancer-p7.png"
+  },
+  {
+    "id": "valkyrie-p7",
+    "name": "Valkyrie",
+    "part": 7,
+    "image": "images/valkyrie-p7.png"
+  },
+  {
+    "id": "silver-bullet-p7",
+    "name": "Silver Bullet",
+    "part": 7,
+    "image": "images/silver-bullet-p7.png"
+  },
+  {
+    "id": "ghost-rider-in-the-sky-p7",
+    "name": "Ghost Rider in the Sky",
+    "part": 7,
+    "image": "images/ghost-rider-in-the-sky-p7.png"
+  },
+  {
+    "id": "hey-ya-p7",
+    "name": "Hey! Ya!",
+    "part": 7,
+    "image": "images/hey-ya-p7.png"
+  },
+  {
+    "id": "gets-up-p7",
+    "name": "Gets Up",
+    "part": 7,
+    "image": "images/gets-up-p7.png"
+  },
+  {
+    "id": "fritz-von-stroheim-p7",
+    "name": "Fritz von Stroheim",
+    "part": 7,
+    "image": "images/fritz-von-stroheim-p7.png"
+  },
+  {
+    "id": "josuke-higashikata-p8",
+    "name": "Josuke Higashikata",
+    "part": 8,
+    "image": "images/josuke-higashikata-p8.png"
+  },
+  {
+    "id": "soft-wet-p8",
+    "name": "Soft & Wet",
+    "part": 8,
+    "image": "images/soft-wet-p8.png"
+  },
+  {
+    "id": "yasuho-hirose-p8",
+    "name": "Yasuho Hirose",
+    "part": 8,
+    "image": "images/yasuho-hirose-p8.png"
+  },
+  {
+    "id": "paisley-park-p8",
+    "name": "Paisley Park",
+    "part": 8,
+    "image": "images/paisley-park-p8.png"
+  },
+  {
+    "id": "rai-mamezuku-p8",
+    "name": "Rai Mamezuku",
+    "part": 8,
+    "image": "images/rai-mamezuku-p8.png"
+  },
+  {
+    "id": "doggy-style-p8",
+    "name": "Doggy Style",
+    "part": 8,
+    "image": "images/doggy-style-p8.png"
+  },
+  {
+    "id": "norisuke-higashikata-p8",
+    "name": "Norisuke Higashikata",
+    "part": 8,
+    "image": "images/norisuke-higashikata-p8.png"
+  },
+  {
+    "id": "king-nothing-p8",
+    "name": "King Nothing",
+    "part": 8,
+    "image": "images/king-nothing-p8.png"
+  },
+  {
+    "id": "tsurugi-higashikata-p8",
+    "name": "Tsurugi Higashikata",
+    "part": 8,
+    "image": "images/tsurugi-higashikata-p8.png"
+  },
+  {
+    "id": "paper-moon-king-p8",
+    "name": "Paper Moon King",
+    "part": 8,
+    "image": "images/paper-moon-king-p8.png"
+  },
+  {
+    "id": "joshu-higashikata-p8",
+    "name": "Joshu Higashikata",
+    "part": 8,
+    "image": "images/joshu-higashikata-p8.png"
+  },
+  {
+    "id": "nut-king-call-p8",
+    "name": "Nut King Call",
+    "part": 8,
+    "image": "images/nut-king-call-p8.png"
+  },
+  {
+    "id": "daiya-higashikata-p8",
+    "name": "Daiya Higashikata",
+    "part": 8,
+    "image": "images/daiya-higashikata-p8.png"
+  },
+  {
+    "id": "california-king-bed-p8",
+    "name": "California King Bed",
+    "part": 8,
+    "image": "images/california-king-bed-p8.png"
+  },
+  {
+    "id": "hato-higashikata-p8",
+    "name": "Hato Higashikata",
+    "part": 8,
+    "image": "images/hato-higashikata-p8.png"
+  },
+  {
+    "id": "walking-heart-p8",
+    "name": "Walking Heart",
+    "part": 8,
+    "image": "images/walking-heart-p8.png"
+  },
+  {
+    "id": "toru-p8",
+    "name": "Toru",
+    "part": 8,
+    "image": "images/toru-p8.png"
+  },
+  {
+    "id": "wonder-of-u-p8",
+    "name": "Wonder of U",
+    "part": 8,
+    "image": "images/wonder-of-u-p8.png"
+  },
+  {
+    "id": "satoru-akefu-p8",
+    "name": "Satoru Akefu",
+    "part": 8,
+    "image": "images/satoru-akefu-p8.png"
+  },
+  {
+    "id": "jobin-higashikata-p8",
+    "name": "Jobin Higashikata",
+    "part": 8,
+    "image": "images/jobin-higashikata-p8.png"
+  },
+  {
+    "id": "speed-king-p8",
+    "name": "Speed King",
+    "part": 8,
+    "image": "images/speed-king-p8.png"
+  },
+  {
+    "id": "mitsuba-higashikata-p8",
+    "name": "Mitsuba Higashikata",
+    "part": 8,
+    "image": "images/mitsuba-higashikata-p8.png"
+  },
+  {
+    "id": "awaking-iii-leaves-p8",
+    "name": "Awaking III Leaves",
+    "part": 8,
+    "image": "images/awaking-iii-leaves-p8.png"
+  },
+  {
+    "id": "kei-nijimura-p8",
+    "name": "Kei Nijimura",
+    "part": 8,
+    "image": "images/kei-nijimura-p8.png"
+  },
+  {
+    "id": "born-this-way-p8",
+    "name": "Born This Way",
+    "part": 8,
+    "image": "images/born-this-way-p8.png"
+  },
+  {
+    "id": "kaato-higashikata-p8",
+    "name": "Kaato Higashikata",
+    "part": 8,
+    "image": "images/kaato-higashikata-p8.png"
+  },
+  {
+    "id": "space-trucking-p8",
+    "name": "Space Trucking",
+    "part": 8,
+    "image": "images/space-trucking-p8.png"
+  },
+  {
+    "id": "holy-joestar-kira-p8",
+    "name": "Holy Joestar-Kira",
+    "part": 8,
+    "image": "images/holy-joestar-kira-p8.png"
+  },
+  {
+    "id": "karera-sakunami-p8",
+    "name": "Karera Sakunami",
+    "part": 8,
+    "image": "images/karera-sakunami-p8.png"
+  },
+  {
+    "id": "love-love-deluxe-p8",
+    "name": "Love Love Deluxe",
+    "part": 8,
+    "image": "images/love-love-deluxe-p8.png"
+  },
+  {
+    "id": "ojiro-sasame-p8",
+    "name": "Ojiro Sasame",
+    "part": 8,
+    "image": "images/ojiro-sasame-p8.png"
+  },
+  {
+    "id": "fun-fun-fun-p8",
+    "name": "Fun Fun Fun",
+    "part": 8,
+    "image": "images/fun-fun-fun-p8.png"
+  },
+  {
+    "id": "tamaki-damo-p8",
+    "name": "Tamaki Damo",
+    "part": 8,
+    "image": "images/tamaki-damo-p8.png"
+  },
+  {
+    "id": "vitamin-c-p8",
+    "name": "Vitamin C",
+    "part": 8,
+    "image": "images/vitamin-c-p8.png"
+  },
+  {
+    "id": "yotsuyu-yagiyama-p8",
+    "name": "Yotsuyu Yagiyama",
+    "part": 8,
+    "image": "images/yotsuyu-yagiyama-p8.png"
+  },
+  {
+    "id": "i-am-a-rock-p8",
+    "name": "I Am a Rock",
+    "part": 8,
+    "image": "images/i-am-a-rock-p8.png"
+  },
+  {
+    "id": "aisho-dainenjiyama-p8",
+    "name": "Aisho Dainenjiyama",
+    "part": 8,
+    "image": "images/aisho-dainenjiyama-p8.png"
+  },
+  {
+    "id": "doobie-wah-p8",
+    "name": "Doobie Wah!",
+    "part": 8,
+    "image": "images/doobie-wah-p8.png"
+  },
+  {
+    "id": "a-phex-brothers-p8",
+    "name": "A. Phex Brothers",
+    "part": 8,
+    "image": "images/a-phex-brothers-p8.png"
+  },
+  {
+    "id": "schott-key-no-1-p8",
+    "name": "Schott Key No.1",
+    "part": 8,
+    "image": "images/schott-key-no-1-p8.png"
+  },
+  {
+    "id": "schott-key-no-2-p8",
+    "name": "Schott Key No.2",
+    "part": 8,
+    "image": "images/schott-key-no-2-p8.png"
+  },
+  {
+    "id": "milagroman-p8",
+    "name": "Milagroman",
+    "part": 8,
+    "image": "images/milagroman-p8.png"
+  },
+  {
+    "id": "dolomite-p8",
+    "name": "Dolomite",
+    "part": 8,
+    "image": "images/dolomite-p8.png"
+  },
+  {
+    "id": "blue-hawaii-p8",
+    "name": "Blue Hawaii",
+    "part": 8,
+    "image": "images/blue-hawaii-p8.png"
+  },
+  {
+    "id": "urban-guerrilla-p8",
+    "name": "Urban Guerrilla",
+    "part": 8,
+    "image": "images/urban-guerrilla-p8.png"
+  },
+  {
+    "id": "brain-storm-p8",
+    "name": "Brain Storm",
+    "part": 8,
+    "image": "images/brain-storm-p8.png"
+  },
+  {
+    "id": "doremifasolati-do-p8",
+    "name": "Doremifasolati Do",
+    "part": 8,
+    "image": "images/doremifasolati-do-p8.png"
+  },
+  {
+    "id": "poor-tom-p8",
+    "name": "Poor Tom",
+    "part": 8,
+    "image": "images/poor-tom-p8.png"
+  },
+  {
+    "id": "ozone-baby-p8",
+    "name": "Ozone Baby",
+    "part": 8,
+    "image": "images/ozone-baby-p8.png"
+  },
+  {
+    "id": "wu-tomoki-p8",
+    "name": "Wu Tomoki",
+    "part": 8,
+    "image": "images/wu-tomoki-p8.png"
+  },
+  {
+    "id": "doctor-wu-p8",
+    "name": "Doctor Wu",
+    "part": 8,
+    "image": "images/doctor-wu-p8.png"
+  },
+  {
+    "id": "les-feuilles-p8",
+    "name": "Les Feuilles",
+    "part": 8,
+    "image": "images/les-feuilles-p8.png"
+  },
+  {
+    "id": "suzuyo-hirose-p8",
+    "name": "Suzuyo Hirose",
+    "part": 8,
+    "image": "images/suzuyo-hirose-p8.png"
+  },
+  {
+    "id": "palawanicus-no-36-p8",
+    "name": "Palawanicus No.36",
+    "part": 8,
+    "image": "images/palawanicus-no-36-p8.png"
+  },
+  {
+    "id": "kiyomi-kujo-p8",
+    "name": "Kiyomi Kujo",
+    "part": 8,
+    "image": "images/kiyomi-kujo-p8.png"
+  },
+  {
+    "id": "maako-kitani-p8",
+    "name": "Maako Kitani",
+    "part": 8,
+    "image": "images/maako-kitani-p8.png"
+  },
+  {
+    "id": "iwasuke-p8",
+    "name": "Iwasuke",
+    "part": 8,
+    "image": "images/iwasuke-p8.png"
+  },
+  {
+    "id": "taoka-p8",
+    "name": "Taoka",
+    "part": 8,
+    "image": "images/taoka-p8.png"
+  },
+  {
+    "id": "do-do-do-de-da-da-da-p8",
+    "name": "Do Do Do, De Da Da Da",
+    "part": 8,
+    "image": "images/do-do-do-de-da-da-da-p8.png"
+  },
+  {
+    "id": "ob-la-di-ob-la-da-p8",
+    "name": "Ob-La-Di, Ob-La-Da",
+    "part": 8,
+    "image": "images/ob-la-di-ob-la-da-p8.png"
+  },
+  {
+    "id": "yoshikage-kira-p8",
+    "name": "Yoshikage Kira",
+    "part": 8,
+    "image": "images/yoshikage-kira-p8.png"
+  },
+  {
+    "id": "killer-queen-p8",
+    "name": "Killer Queen",
+    "part": 8,
+    "image": "images/killer-queen-p8.png"
+  },
+  {
+    "id": "josefumi-kujo-p8",
+    "name": "Josefumi Kujo",
+    "part": 8,
+    "image": "images/josefumi-kujo-p8.png"
+  },
+  {
+    "id": "johnny-joestar-p8",
+    "name": "Johnny Joestar",
+    "part": 8,
+    "image": "images/johnny-joestar-p8.png"
+  },
+  {
+    "id": "lucy-steel-p8",
+    "name": "Lucy Steel",
+    "part": 8,
+    "image": "images/lucy-steel-p8.png"
+  },
+  {
+    "id": "joseph-joestar-p8",
+    "name": "Joseph Joestar",
+    "part": 8,
+    "image": "images/joseph-joestar-p8.png"
+  },
+  {
+    "id": "radio-gaga-p8",
+    "name": "Radio Gaga",
+    "part": 8,
+    "image": "images/radio-gaga-p8.png"
+  }
+]
