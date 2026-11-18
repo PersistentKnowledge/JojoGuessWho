@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
         /* Title */
         .site-header {
@@ -76,6 +77,43 @@
         #change-names[hidden] {
             display: none;
         }
+        #setup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Opponent Setup */
+        #opp-fields {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        .opp-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .toolbar .icon-btn {
+            width: 24px;
+            height: 24px;
+            padding: 0;
+            font-size: 0.8rem;
+            line-height: 1;
+        }
+
+        .toolbar .add-opp {
+            font-size: 1rem;
+        }
+
+        .toolbar .icon-btn[hidden] {
+            display: none;
+        }
+
 
         /* Chosen Card */
         #my-pick {
@@ -306,23 +344,18 @@
         <p class="tagline">A fan-made guessing game for JJBA</p>
     </header>
     <div class="top-row">
-
         <div class="toolbar">
             <form id="setup">
-                <input name="opp" placeholder="Opponent 1" maxlength="20">
-                <input name="opp" placeholder="Opponent 2" maxlength="20">
-                <input name="opp" placeholder="Opponent 3" maxlength="20">
-                <button type="submit">Set Opponents</button>
+                <div id="opp-fields"></div>
+                <button type="submit">Done</button>
             </form>
             <div class="toolbar-actions">
                 <button id="reset">Reset All Boards</button>
                 <button id="random">Choose Random Character</button>
                 </div>
-
             <div id="opponent-tabs"></div>
             <div id="part-filter"></div>
             <button id="change-names" hidden>Change Names</button>
-
             </div>
         <div id='my-pick' hidden title="Click to jump this card">
                 <div class="my-pick-heading">Your Character</div>
@@ -332,7 +365,6 @@
                 <div class="my-pick-name"></div>
             </div>
         </div>
-    </div>
 
 
 
@@ -342,6 +374,9 @@
     const response = await fetch('jjba_characters.json');
     const characters = await response.json();
     const board = document.getElementById('board');
+
+    // STATIC VARIABLES
+    const MAX_OPPONENTS = 4;
 
 
     // Prepare Eliminated Option
@@ -494,6 +529,7 @@
     }
 
    // Opponent Setup
+
     document.getElementById('setup').addEventListener('submit', (event) => {
         event.preventDefault();
 
@@ -522,6 +558,68 @@
     });
 
     setupOpponents(['Opponent 1']);
+
+    // Adding Additional Opponents
+    const oppFields = document.getElementById('opp-fields');
+
+    const addOppBtn = document.createElement('button');
+    addOppBtn.type = 'button';
+    addOppBtn.className = 'icon-btn add-opp';
+    addOppBtn.textContent = '+';
+    addOppBtn.title = 'Add another opponent';
+
+    function createOppRow() {
+        const row = document.createElement('div');
+        row.className = 'opp-row';
+
+        const removeBtn = document.createElement('button');
+        removeBtn.type = 'button';
+        removeBtn.className = 'icon-btn remove-opp';
+        removeBtn.textContent = 'x';
+        removeBtn.title = 'Remove this opponent';
+        removeBtn.addEventListener('click', () => {
+            row.remove();
+            updateOppFields();
+        });
+
+        const input = document.createElement('input');
+        input.name = 'opp';
+        input.maxLength = 20;
+
+        row.append(input, removeBtn);
+        oppFields.append(row);
+        return input;
+    }
+
+    function updateOppFields() {
+        const rows = [...oppFields.querySelectorAll('.opp-row')];
+        const canAdd = rows.length < MAX_OPPONENTS;
+
+        rows.forEach((row, i) => {
+            const isLast = i === rows.length - 1;
+
+            row.querySelector('input').placeholder = `Opponent ${i + 1}`;
+
+            const hideRemove = rows.length === 1 || (isLast && canAdd);
+            row.querySelector('.remove-opp').hidden = hideRemove;
+        });
+
+        if(canAdd) {
+            rows.at(-1).append(addOppBtn);
+        }
+        else {
+            addOppBtn.remove();
+        }
+    }
+
+    addOppBtn.addEventListener('click', () => {
+        const input = createOppRow();
+        updateOppFields();
+        input.focus();
+    });
+
+    createOppRow();
+    updateOppFields();
 
     // Reveal Change Names
     document.getElementById('change-names').addEventListener('click', () => {
